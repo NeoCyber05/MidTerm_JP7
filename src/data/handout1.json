@@ -1,6 +1,6 @@
 {
  "id": "handout1",
- "title": "ハンドアウト1: 復習・オノマトペ",
+ "title": "ハンドアウト1: 復習",
  "vocab": [
   {
    "id": "v1",
@@ -375,196 +375,464 @@
    "exVi": "Trải qua quãng thời gian vui vẻ bên bạn bè."
   },
   {
-   "id": "v31",
-   "cat": "onomatope",
-   "word": "げらげら",
-   "reading": "geragera",
-   "tags": [
-    "Tiếng cười"
-   ],
-   "meaning": "Cười ha hả, cười ngặt nghẽo to tiếng không ngớt",
-   "exJp": "げらげら大声で笑った。",
-   "exVi": "Cười to ha hả thành tiếng."
+   "id": "s1",
+   "cat": "symptom",
+   "word": "症状",
+   "reading": "しょうじょう",
+   "tags": [],
+   "meaning": "Triệu chứng",
+   "exJp": "",
+   "exVi": ""
   },
   {
-   "id": "v32",
-   "cat": "onomatope",
-   "word": "とんとん",
-   "reading": "tonton",
-   "tags": [
-    "Gõ cửa / Nhẹ nhàng"
-   ],
-   "meaning": "Tiếng gõ cửa cộc cộc nhẹ / Thuận lợi trôi chảy",
-   "exJp": "ドアをとんとんと軽くノックした。",
-   "exVi": "Gõ nhẹ vào cửa cốc cốc."
+   "id": "s2",
+   "cat": "symptom",
+   "word": "病気",
+   "reading": "びょうき",
+   "tags": [],
+   "meaning": "Bệnh",
+   "exJp": "",
+   "exVi": ""
   },
   {
-   "id": "v33",
-   "cat": "onomatope",
-   "word": "わくわく",
-   "reading": "wakuwaku",
-   "tags": [
-    "Tâm trạng"
-   ],
-   "meaning": "Háo hức, mong chờ một điều vui sắp tới",
-   "exJp": "明日から旅行なのでわくわくしている。",
-   "exVi": "Mai đi du lịch rồi nên trong lòng rất háo hức."
+   "id": "s3",
+   "cat": "symptom",
+   "word": "けが",
+   "reading": "けが",
+   "tags": [],
+   "meaning": "Vết thương",
+   "exJp": "",
+   "exVi": ""
   },
   {
-   "id": "v34",
-   "cat": "onomatope",
-   "word": "わいわい",
-   "reading": "waiwai",
-   "tags": [
-    "Đông người"
-   ],
-   "meaning": "Rôm rả, náo nhiệt, đông người nói cười vui vẻ",
-   "exJp": "みんなでわいわい話す。",
-   "exVi": "Mọi người rôm rả trò chuyện cùng nhau."
+   "id": "s4",
+   "cat": "symptom",
+   "word": "せきが出る",
+   "reading": "せきがでる",
+   "tags": [],
+   "meaning": "Bị ho",
+   "exJp": "",
+   "exVi": ""
   },
   {
-   "id": "v35",
-   "cat": "onomatope",
-   "word": "にこにこ",
-   "reading": "nikoniko",
-   "tags": [
-    "Nụ cười"
-   ],
-   "meaning": "Cười mỉm, tươi cười rạng rỡ, hiền hậu",
-   "exJp": "いつもにこにこしていて優しそうだ。",
-   "exVi": "Lúc nào cũng tươi cười trông rất hiền từ."
+   "id": "s5",
+   "cat": "symptom",
+   "word": "頭が痛い",
+   "reading": "あたまがいたい",
+   "tags": [],
+   "meaning": "Bị đau đầu",
+   "exJp": "",
+   "exVi": ""
   },
   {
-   "id": "v36",
-   "cat": "onomatope",
-   "word": "ぺこぺこ",
-   "reading": "pekopeko",
-   "tags": [
-    "Cảm giác cơ thể"
-   ],
-   "meaning": "Bụng đói meo, đói cồn cào / Cúi đầu khúm núm",
-   "exJp": "お腹がぺこぺこだ。",
-   "exVi": "Bụng tôi đói meo rồi."
+   "id": "s6",
+   "cat": "symptom",
+   "word": "胃",
+   "reading": "い",
+   "tags": [],
+   "meaning": "Dạ dày",
+   "exJp": "",
+   "exVi": ""
   },
   {
-   "id": "v37",
-   "cat": "onomatope",
-   "word": "くたくた",
-   "reading": "kutakuta",
-   "tags": [
-    "Mệt mỏi"
-   ],
-   "meaning": "Mệt rã rời, kiệt sức, nhừ cả người",
-   "exJp": "10km走ったから、もうくたくただ。",
-   "exVi": "Chạy 10km rồi nên người mệt rã rời."
+   "id": "s7",
+   "cat": "symptom",
+   "word": "微熱が出る",
+   "reading": "びねつがでる",
+   "tags": [],
+   "meaning": "Bị sốt nhẹ",
+   "exJp": "",
+   "exVi": ""
   },
   {
-   "id": "v38",
-   "cat": "onomatope",
-   "word": "どきどき",
-   "reading": "dokidoki",
-   "tags": [
-    "Nhịp tim"
-   ],
-   "meaning": "Hồi hộp, tim đập thình thịch liên hồi",
-   "exJp": "好きな女の子の前だと、どきどきする。",
-   "exVi": "Đứng trước người mình thích là tim đập thình thịch."
+   "id": "s8",
+   "cat": "symptom",
+   "word": "やけど",
+   "reading": "やけど",
+   "tags": [],
+   "meaning": "Vết bỏng",
+   "exJp": "",
+   "exVi": ""
   },
   {
-   "id": "v39",
-   "cat": "onomatope",
-   "word": "ときどき",
-   "reading": "tokidoki",
-   "tags": [
-    "Tần suất"
-   ],
-   "meaning": "Thỉnh thoảng, đôi khi (tần suất khoảng 20-30%)",
-   "exJp": "ときどき日本料理店へ行く。",
-   "exVi": "Thỉnh thoảng tôi có đến quán ăn Nhật."
+   "id": "s9",
+   "cat": "symptom",
+   "word": "下痢になる",
+   "reading": "げりになる",
+   "tags": [],
+   "meaning": "Bị tiêu chảy",
+   "exJp": "",
+   "exVi": ""
   },
   {
-   "id": "v40",
-   "cat": "onomatope",
-   "word": "ひりひり",
-   "reading": "hirihiri",
-   "tags": [
-    "Đau rát"
-   ],
-   "meaning": "Đau rát buốt, xót (do trầy xước da, bỏng, cay)",
-   "exJp": "道で転んで、足がひりひりする。",
-   "exVi": "Ngã trên đường nên vết thương ở chân rát buốt."
+   "id": "s10",
+   "cat": "symptom",
+   "word": "便秘になる",
+   "reading": "べんぴになる",
+   "tags": [],
+   "meaning": "Bị táo bón",
+   "exJp": "",
+   "exVi": ""
   },
   {
-   "id": "v41",
-   "cat": "onomatope",
-   "word": "にやにや",
-   "reading": "niyaniya",
-   "tags": [
-    "Cười thầm"
-   ],
-   "meaning": "Cười mỉm một mình, cười nhăn nhở bí hiểm",
-   "exJp": "スマホを見ながらにやにやしている。",
-   "exVi": "Vừa nhìn điện thoại vừa cười thầm một mình."
+   "id": "s11",
+   "cat": "symptom",
+   "word": "ねんざをする",
+   "reading": "ねんざをする",
+   "tags": [],
+   "meaning": "Bị trật khớp",
+   "exJp": "",
+   "exVi": ""
   },
   {
-   "id": "v42",
-   "cat": "onomatope",
-   "word": "むかむか",
-   "reading": "mukamuka",
-   "tags": [
-    "Khó chịu dạ dày"
-   ],
-   "meaning": "Cồn cào nôn nao, buồn nôn, khó chịu ở ngực/bụng",
-   "exJp": "お酒をたくさん飲んだので胸がむかむかする。",
-   "exVi": "Uống nhiều rượu nên ngực/dạ dày nôn nao khó chịu."
+   "id": "s12",
+   "cat": "symptom",
+   "word": "湿しんができる",
+   "reading": "しっしんができる",
+   "tags": [],
+   "meaning": "Bị phát ban, nổi mẩn",
+   "exJp": "",
+   "exVi": ""
   },
   {
-   "id": "v43",
-   "cat": "onomatope",
-   "word": "ぴりぴり",
-   "reading": "piripiri",
-   "tags": [
-    "Căng thẳng / Tê rát"
-   ],
-   "meaning": "Bầu không khí căng như dây đàn / Vị cay tê lưỡi",
-   "exJp": "試験前で教室がぴりぴりしている。",
-   "exVi": "Trước giờ thi cả phòng học căng thẳng tột độ."
+   "id": "s13",
+   "cat": "symptom",
+   "word": "かゆい",
+   "reading": "かゆい",
+   "tags": [],
+   "meaning": "Ngứa",
+   "exJp": "",
+   "exVi": ""
   },
   {
-   "id": "v44",
-   "cat": "onomatope",
-   "word": "むずむず",
-   "reading": "muzumuzu",
-   "tags": [
-    "Ngứa ngáy"
-   ],
-   "meaning": "Ngứa ngáy, nhồn nhột ở mũi / Bứt rứt muốn làm gì",
-   "exJp": "鼻がむずむずして、くしゃみが出そうだ。",
-   "exVi": "Mũi cứ ngứa nhồn nhột, như sắp hắt xì hơi."
+   "id": "s14",
+   "cat": "symptom",
+   "word": "血が止まらない",
+   "reading": "ちがとまらない",
+   "tags": [],
+   "meaning": "Máu chảy không ngừng",
+   "exJp": "",
+   "exVi": ""
   },
   {
-   "id": "v45",
-   "cat": "onomatope",
-   "word": "どんどん",
-   "reading": "dondon",
-   "tags": [
-    "Nhanh chóng"
-   ],
-   "meaning": "Tiến triển nhanh chóng, liên tục, dồn dập",
-   "exJp": "日本語の単語をどんどん覚える。",
-   "exVi": "Học từ vựng tiếng Nhật một cách nhanh chóng."
+   "id": "s15",
+   "cat": "symptom",
+   "word": "くしゃみ",
+   "reading": "くしゃみ",
+   "tags": [],
+   "meaning": "Hắt xì",
+   "exJp": "",
+   "exVi": ""
   },
   {
-   "id": "v46",
-   "cat": "onomatope",
-   "word": "ぐだぐだ",
-   "reading": "gudaguda",
-   "tags": [
-    "Lải nhải / Say mèm"
-   ],
-   "meaning": "Lải nhải phàn nàn dai dẳng / Say mèm rệu rã",
-   "exJp": "ぐだぐだ言ってないで早くやりなさい。",
-   "exVi": "Đừng lải nhải nữa mà mau làm đi!"
+   "id": "s16",
+   "cat": "symptom",
+   "word": "鼻水",
+   "reading": "はなみず",
+   "tags": [],
+   "meaning": "Nước mũi",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s17",
+   "cat": "symptom",
+   "word": "食欲",
+   "reading": "しょくよく",
+   "tags": [],
+   "meaning": "Cảm giác thèm ăn",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s18",
+   "cat": "symptom",
+   "word": "吐く",
+   "reading": "はく",
+   "tags": [],
+   "meaning": "Nôn, ói",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s19",
+   "cat": "symptom",
+   "word": "吐き気がする",
+   "reading": "はきけがする",
+   "tags": [],
+   "meaning": "Cảm giác buồn nôn",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s20",
+   "cat": "symptom",
+   "word": "ゾクゾクする",
+   "reading": "ゾクゾクする",
+   "tags": [],
+   "meaning": "Rét run cầm cập",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s21",
+   "cat": "symptom",
+   "word": "フラフラする / ボーッとする",
+   "reading": "フラフラする・ボーッとする",
+   "tags": [],
+   "meaning": "Choáng váng, lảo đảo",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s22",
+   "cat": "symptom",
+   "word": "ガンガンする",
+   "reading": "ガンガンする",
+   "tags": [],
+   "meaning": "Đau đầu như búa bổ",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s23",
+   "cat": "symptom",
+   "word": "ヒリヒリする",
+   "reading": "ヒリヒリする",
+   "tags": [],
+   "meaning": "Buốt, rát (vết xước, bỏng)",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s24",
+   "cat": "symptom",
+   "word": "ズキズキする",
+   "reading": "ズキズキする",
+   "tags": [],
+   "meaning": "Đau buốt (răng, vết thương)",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s25",
+   "cat": "symptom",
+   "word": "コンコン / ゴホン",
+   "reading": "コンコン・ゴホン",
+   "tags": [],
+   "meaning": "Ho nhẹ; ho khan (sù sụ)",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s26",
+   "cat": "symptom",
+   "word": "ムカムカする",
+   "reading": "ムカムカする",
+   "tags": [],
+   "meaning": "Nôn nao, cồn cào (bụng, cổ họng)",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s27",
+   "cat": "symptom",
+   "word": "キリキリ痛む",
+   "reading": "キリキリいたむ",
+   "tags": [],
+   "meaning": "Đau nhói, đau thắt (dạ dày)",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s28",
+   "cat": "symptom",
+   "word": "内科",
+   "reading": "ないか",
+   "tags": [],
+   "meaning": "Khoa nội",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s29",
+   "cat": "symptom",
+   "word": "外科",
+   "reading": "げか",
+   "tags": [],
+   "meaning": "Khoa ngoại",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s30",
+   "cat": "symptom",
+   "word": "整形外科",
+   "reading": "せいけいげか",
+   "tags": [],
+   "meaning": "Khoa chấn thương chỉnh hình",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s31",
+   "cat": "symptom",
+   "word": "皮膚科",
+   "reading": "ひふか",
+   "tags": [],
+   "meaning": "Khoa da liễu",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s32",
+   "cat": "symptom",
+   "word": "耳鼻科",
+   "reading": "じびか",
+   "tags": [],
+   "meaning": "Khoa tai mũi họng",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s33",
+   "cat": "symptom",
+   "word": "眼科 / 目医者",
+   "reading": "がんか・めいしゃ",
+   "tags": [],
+   "meaning": "Khoa mắt / Bác sĩ mắt",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s34",
+   "cat": "symptom",
+   "word": "歯科 / 歯医者",
+   "reading": "しか・はいしゃ",
+   "tags": [],
+   "meaning": "Khoa răng / Nha sĩ",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s35",
+   "cat": "symptom",
+   "word": "診察",
+   "reading": "しんさつ",
+   "tags": [],
+   "meaning": "Khám bệnh",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s36",
+   "cat": "symptom",
+   "word": "診断",
+   "reading": "しんだん",
+   "tags": [],
+   "meaning": "Chẩn đoán",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s37",
+   "cat": "symptom",
+   "word": "治療",
+   "reading": "ちりょう",
+   "tags": [],
+   "meaning": "Điều trị",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s38",
+   "cat": "symptom",
+   "word": "看護師",
+   "reading": "かんごし",
+   "tags": [],
+   "meaning": "Điều dưỡng",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s39",
+   "cat": "symptom",
+   "word": "足首",
+   "reading": "あしくび",
+   "tags": [],
+   "meaning": "Cổ chân",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s40",
+   "cat": "symptom",
+   "word": "背中",
+   "reading": "せなか",
+   "tags": [],
+   "meaning": "Lưng",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s41",
+   "cat": "symptom",
+   "word": "包丁",
+   "reading": "ほうちょう",
+   "tags": [],
+   "meaning": "Dao làm bếp",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s42",
+   "cat": "symptom",
+   "word": "息を吸う / 吐く",
+   "reading": "いきをすう・はく",
+   "tags": [],
+   "meaning": "Hít vào / Thở ra",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s43",
+   "cat": "symptom",
+   "word": "うつぶせに寝る",
+   "reading": "うつぶせにねる",
+   "tags": [],
+   "meaning": "Nằm sấp",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s44",
+   "cat": "symptom",
+   "word": "目薬を差す",
+   "reading": "めぐすりをさす",
+   "tags": [],
+   "meaning": "Nhỏ thuốc mắt",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s45",
+   "cat": "symptom",
+   "word": "薬を付ける",
+   "reading": "くすりをつける",
+   "tags": [],
+   "meaning": "Bôi thuốc",
+   "exJp": "",
+   "exVi": ""
+  },
+  {
+   "id": "s46",
+   "cat": "symptom",
+   "word": "かゆみ止め",
+   "reading": "かゆみどめ",
+   "tags": [],
+   "meaning": "Thuốc giảm ngứa",
+   "exJp": "",
+   "exVi": ""
   }
  ],
  "grammar": [
@@ -921,170 +1189,160 @@
   {
    "id": 6,
    "kind": "fill",
-   "title": "問題 6：一番いいものを口の中から選んで下さい。1度しか使えません。",
+   "title": "問題 6：□の中から一番いいものを選んで下さい。1度しか使えません。",
    "data": {
     "bank": [
      {
       "key": "A",
-      "text": "げらげら",
-      "vi": "Cười ha hả, cười to"
+      "text": "外科",
+      "vi": "Khoa ngoại"
      },
      {
       "key": "B",
-      "text": "とんとん",
-      "vi": "Gõ cốc cốc, suôn sẻ"
+      "text": "けが",
+      "vi": "Vết thương (do ngã, va chạm)"
      },
      {
       "key": "C",
-      "text": "わくわく",
-      "vi": "Háo hức, mong chờ"
+      "text": "鼻水",
+      "vi": "Nước mũi"
      },
      {
       "key": "D",
-      "text": "わいわい",
-      "vi": "Rôm rả, náo nhiệt"
+      "text": "診察",
+      "vi": "Khám bệnh"
      },
      {
       "key": "E",
-      "text": "にこにこ",
-      "vi": "Cười mỉm, tươi tắn"
+      "text": "歯科",
+      "vi": "Khoa răng"
      },
      {
       "key": "F",
-      "text": "ぺこぺこ",
-      "vi": "Đói meo / khúm núm"
+      "text": "ガンガン",
+      "vi": "Đau như búa bổ"
      },
      {
       "key": "G",
-      "text": "くたくた",
-      "vi": "Mệt rã rời, kiệt sức"
+      "text": "ヒリヒリ",
+      "vi": "Buốt, rát"
      },
      {
       "key": "H",
-      "text": "どきどき",
-      "vi": "Hồi hộp, tim đập thình thịch"
+      "text": "包丁",
+      "vi": "Dao làm bếp"
      },
      {
       "key": "I",
-      "text": "ときどき",
-      "vi": "Thỉnh thoảng, đôi khi"
+      "text": "ゾクゾク",
+      "vi": "Rét run, ớn lạnh"
      },
      {
       "key": "J",
-      "text": "ひりひり",
-      "vi": "Đau rát, xót (vết thương)"
+      "text": "キリキリ",
+      "vi": "Đau nhói, đau thắt"
      },
      {
       "key": "K",
-      "text": "にやにや",
-      "vi": "Cười nhăn nhở, cười thầm"
+      "text": "かゆい",
+      "vi": "Ngứa"
      },
      {
       "key": "L",
-      "text": "むかむか",
-      "vi": "Buồn nôn, cồn cào ngực"
+      "text": "内科",
+      "vi": "Khoa nội"
      },
      {
       "key": "M",
-      "text": "ぴりぴり",
-      "vi": "Căng thẳng / cay xè"
+      "text": "フラフラ",
+      "vi": "Choáng váng, loạng choạng"
      },
      {
       "key": "N",
-      "text": "むずむず",
-      "vi": "Ngứa ngáy, nhồn nhột mũi"
-     },
-     {
-      "key": "O",
-      "text": "どんどん",
-      "vi": "Dồn dập, nhanh chóng"
-     },
-     {
-      "key": "P",
-      "text": "ぐだぐだ",
-      "vi": "Lải nhải, say xỉn rệu rã"
+      "text": "背中",
+      "vi": "Lưng"
      }
     ],
     "items": [
      {
       "parts": [
-       "お<ruby>酒<rt>さけ</rt></ruby>をたくさん<ruby>飲<rt>の</rt></ruby>んだので、<ruby>今朝<rt>けさ</rt></ruby>から<ruby>胸<rt>むね</rt></ruby>が",
-       "している。"
-      ],
-      "answer": "L",
-      "vi": "Uống nhiều rượu nên dạ dày/ngực cứ cồn cào buồn nôn."
-     },
-     {
-      "parts": [
-       "<ruby>今日<rt>きょう</rt></ruby>は10km<ruby>走<rt>はし</rt></ruby>ったから、もう",
-       "だ。"
-      ],
-      "answer": "G",
-      "vi": "Chạy những 10km nên người đã mệt rã rời kiệt sức rồi."
-     },
-     {
-      "parts": [
-       "<ruby>忙<rt>いそが</rt></ruby>しくて<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べていないから、もうお<ruby>腹<rt>なか</rt></ruby>が",
-       "だ。"
-      ],
-      "answer": "F",
-      "vi": "Bận quá chưa ăn trưa nên bụng đói cồn cào."
-     },
-     {
-      "parts": [
-       "Huyさんは、ドアを",
-       "と<ruby>軽<rt>かる</rt></ruby>くノックした。"
+       "転んで",
+       "をした。"
       ],
       "answer": "B",
-      "vi": "Bạn Huy gõ nhẹ vào cửa cộc cộc."
+      "vi": "Vì bị ngã nên bị thương."
      },
      {
       "parts": [
-       "<ruby>面白<rt>おもしろ</rt></ruby>いテレビ<ruby>番組<rt>ばんぐみ</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、みんな",
-       "<ruby>大声<rt>おおごえ</rt></ruby>で<ruby>笑<rt>わら</rt></ruby>った。"
-      ],
-      "answer": "A",
-      "vi": "Mọi người cười ha hả thành tiếng lớn."
-     },
-     {
-      "parts": [
-       "<ruby>好<rt>す</rt></ruby>きな<ruby>女<rt>おんな</rt></ruby>の<ruby>子<rt>こ</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>だと、",
-       "して、うまく<ruby>話<rt>はな</rt></ruby>せない。"
-      ],
-      "answer": "H",
-      "vi": "Đứng trước bạn nữ mình thích là tim đập thình thịch."
-     },
-     {
-      "parts": [
-       "<ruby>鼻<rt>はな</rt></ruby>が",
-       "して、くしゃみが<ruby>出<rt>で</rt></ruby>そうだ。"
-      ],
-      "answer": "N",
-      "vi": "Mũi cứ ngứa nhồn nhột, như sắp hắt xì hơi."
-     },
-     {
-      "parts": [
-       "<ruby>明日<rt>あした</rt></ruby>から<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>くので、<ruby>私<rt>わたし</rt></ruby>は<ruby>今<rt>いま</rt></ruby>から",
-       "している。"
+       "風邪をひいて、",
+       "が止まらない。"
       ],
       "answer": "C",
-      "vi": "Mai được đi du lịch rồi nên trong lòng rất háo hức."
+      "vi": "Bị cảm nên chảy nước mũi không ngừng."
      },
      {
       "parts": [
-       "<ruby>道<rt>みち</rt></ruby>で<ruby>転<rt>ころ</rt></ruby>んで、<ruby>足<rt>あし</rt></ruby>が",
-       "する。<ruby>薬<rt>くすり</rt></ruby>をつけよう。"
+       "医者に",
+       "を受けた。"
       ],
-      "answer": "J",
-      "vi": "Bị ngã trên đường nên vết thương ở chân rát buốt."
+      "answer": "D",
+      "vi": "Đã được bác sĩ khám bệnh."
      },
      {
       "parts": [
-       "Nganさんはいつも",
-       "していて、<ruby>優<rt>やさ</rt></ruby>しそうだ。"
+       "歯が痛いので、",
+       "に行く。"
       ],
       "answer": "E",
-      "vi": "Bạn Ngân lúc nào cũng tươi cười rạng rỡ, hiền từ."
+      "vi": "Vì đau răng nên đi khoa răng."
+     },
+     {
+      "parts": [
+       "頭が",
+       "する。"
+      ],
+      "answer": "F",
+      "vi": "Đầu đau như búa bổ."
+     },
+     {
+      "parts": [
+       "傷が",
+       "する。"
+      ],
+      "answer": "G",
+      "vi": "Vết thương rát buốt."
+     },
+     {
+      "parts": [
+       "寒気がして、体が",
+       "する。"
+      ],
+      "answer": "I",
+      "vi": "Bị ớn lạnh, người rét run."
+     },
+     {
+      "parts": [
+       "胃が",
+       "痛む。"
+      ],
+      "answer": "J",
+      "vi": "Dạ dày đau nhói từng cơn."
+     },
+     {
+      "parts": [
+       "虫に刺されて、",
+       "です。"
+      ],
+      "answer": "K",
+      "vi": "Bị côn trùng đốt nên ngứa."
+     },
+     {
+      "parts": [
+       "熱が出たので、",
+       "に行った。"
+      ],
+      "answer": "L",
+      "vi": "Vì bị sốt nên đã đi khoa nội."
      }
     ]
    }

@@ -32,10 +32,10 @@ function Card({ v, lessonId }) {
         {v.tags.filter((x) => x !== t.label).map((x) => <span key={x} className="chip">{x}</span>)}
       </div>
       <p className="meaning">{v.meaning}</p>
-      <div className="example">
+      {v.exJp && <div className="example">
         <Rich html={v.exJp} className="jp ex-jp" />
         <div className="vi ex-vi">{v.exVi}</div>
-      </div>
+      </div>}
     </article>
   )
 }
@@ -66,8 +66,8 @@ function Flash({ list, lessonId }) {
         <div className="face back">
           <span className="reading jp">{v.reading}</span>
           <strong className="meaning">{v.meaning}</strong>
-          <span className="jp ex-jp" dangerouslySetInnerHTML={{ __html: v.exJp }} />
-          <span className="vi muted">{v.exVi}</span>
+          {v.exJp && <span className="jp ex-jp" dangerouslySetInnerHTML={{ __html: v.exJp }} />}
+          {v.exVi && <span className="vi muted">{v.exVi}</span>}
         </div>
       </button>
       <div className="flash-bar">

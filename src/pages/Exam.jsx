@@ -100,7 +100,7 @@ const Scenario = ({ data }) => (
   </ol>
 )
 
-/* ---------- 6. Điền từ tượng thanh (kéo thả / chạm) ---------- */
+/* ---------- 6. Điền từ (kéo thả / chạm) ---------- */
 function Fill({ data, scoreKey, revealAll }) {
   const { saveScore } = useStore()
   const [placed, setPlaced] = useState({}) // item index -> bank key
@@ -115,7 +115,7 @@ function Fill({ data, scoreKey, revealAll }) {
   return (
     <>
       <div className="card bank">
-        <p className="muted">Chạm một từ rồi chạm ô trống (hoặc kéo thả). Mỗi từ dùng 1 lần — còn thừa 6 từ nhiễu.</p>
+        <p className="muted">Chạm một từ rồi chạm ô trống (hoặc kéo thả). Mỗi từ dùng 1 lần — còn thừa {data.bank.length - data.items.length} từ nhiễu.</p>
         <div className="bank-grid">
           {data.bank.map((b) => (
             <button key={b.key} type="button" draggable={!used.has(b.key)} disabled={used.has(b.key)}
@@ -203,7 +203,7 @@ export function ExamRun() {
         <div className="exam-tools">
           <button type="button" className={`pill${revealAll ? ' on' : ''}`} aria-pressed={revealAll} onClick={() => setRevealAll(!revealAll)}><Icon n="eye" size={16} /> Hiện đáp án</button>
           <button type="button" className="pill" onClick={() => { setRound(round + 1); setRevealAll(false) }}><Icon n="redo" size={16} /> Làm lại</button>
-          <button type="button" className="pill" onClick={() => dlg.current.showModal()}><Icon n="image" size={16} /> Ảnh đề gốc</button>
+          {lesson.scans[idx] && <button type="button" className="pill" onClick={() => dlg.current.showModal()}><Icon n="image" size={16} /> Ảnh đề gốc</button>}
         </div>
       </div>
 
@@ -216,10 +216,10 @@ export function ExamRun() {
         <button type="button" className="btn primary" disabled={idx === lesson.exams.length - 1} onClick={() => go(1)}>Dạng sau <Icon n="right" /></button>
       </div>
 
-      <dialog ref={dlg} className="scan" onClick={(e) => e.target === dlg.current && dlg.current.close()}>
+      {lesson.scans[idx] && <dialog ref={dlg} className="scan" onClick={(e) => e.target === dlg.current && dlg.current.close()}>
         <button type="button" className="icon-btn close" aria-label="Đóng" onClick={() => dlg.current.close()}><Icon n="x" /></button>
         <img src={img(`assets/${lesson.id}_p${lesson.scans[idx]}.png`)} alt="Ảnh đề bài gốc" />
-      </dialog>
+      </dialog>}
     </div>
   )
 }

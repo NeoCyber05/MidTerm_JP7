@@ -105,27 +105,9 @@ const m5 = $$(sec(5), '.scenario-card').map((c, i) => {
   }
 })
 
-// 6: word bank + fill
-const m6 = {
-  bank: $$(sec(6), '.bank-word').map((w) => ({
-    key: w.dataset.key,
-    text: text($(w, '.bw-text')),
-    vi: w.dataset.vi,
-  })),
-  items: $$(sec(6), '.fill-item').map((f) => {
-    const slot = $(f, '.slot')
-    const before = clean($(f, 'div')).split(/<span class="slot"[^>]*><\/span>/)
-    return {
-      parts: before.map((p) => p.replace(/^[①-⑩]\s*/, '').replace(/（\s*$/, '').replace(/^\s*）/, '')),
-      answer: slot.dataset.answer,
-      vi: text($(f, '.fill-meaning')),
-    }
-  }),
-}
-
 const out = {
   id: 'handout1',
-  title: 'ハンドアウト1: 復習・オノマトペ',
+  title: 'ハンドアウト1: 復習',
   vocab,
   grammar,
   exams: [
@@ -134,9 +116,8 @@ const out = {
     { id: 3, kind: 'conjugate', title: title(3), data: m3 },
     { id: 4, kind: 'choice', title: title(4), data: m4 },
     { id: 5, kind: 'scenario', title: title(5), data: m5 },
-    { id: 6, kind: 'fill', title: title(6), data: m6 },
   ],
 }
 fs.mkdirSync('src/data', { recursive: true })
 fs.writeFileSync('src/data/handout1.json', JSON.stringify(out, null, 1))
-console.log({ vocab: vocab.length, grammar: grammar.length, m1: m1.length, m2: m2.length, m3: m3.length, m4: m4.length, m5: m5.length, m6: m6.items.length })
+console.log({ vocab: vocab.length, grammar: grammar.length, m1: m1.length, m2: m2.length, m3: m3.length, m4: m4.length, m5: m5.length })
