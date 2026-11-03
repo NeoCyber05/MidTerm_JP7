@@ -1,0 +1,1093 @@
+{
+ "id": "handout1",
+ "title": "ハンドアウト1: 復習・オノマトペ",
+ "vocab": [
+  {
+   "id": "v1",
+   "cat": "cooking",
+   "word": "揚げる",
+   "reading": "あげる",
+   "tags": [
+    "Động từ nhóm 2",
+    "Tha động từ (他)"
+   ],
+   "meaning": "Chiên, rán ngập dầu (cho thực phẩm giòn rụm)",
+   "exJp": "エビを<strong>揚げます</strong>。",
+   "exVi": "Chiên tôm ngập dầu (làm món tempura)."
+  },
+  {
+   "id": "v2",
+   "cat": "cooking",
+   "word": "炒める",
+   "reading": "いためる",
+   "tags": [
+    "Động từ nhóm 2",
+    "Tha động từ (他)"
+   ],
+   "meaning": "Xào (đảo đều thực phẩm trên chảo với ít dầu)",
+   "exJp": "野菜を<strong>炒めます</strong>。",
+   "exVi": "Xào rau củ trên chảo."
+  },
+  {
+   "id": "v3",
+   "cat": "cooking",
+   "word": "茹でる",
+   "reading": "ゆでる",
+   "tags": [
+    "Động từ nhóm 2",
+    "Tha động từ (他)"
+   ],
+   "meaning": "Luộc (làm chín thức ăn hoàn toàn trong nước sôi)",
+   "exJp": "野菜を<strong>茹でます</strong>。",
+   "exVi": "Luộc rau xanh trong nước sôi."
+  },
+  {
+   "id": "v4",
+   "cat": "cooking",
+   "word": "焼く",
+   "reading": "やく",
+   "tags": [
+    "Động từ nhóm 1",
+    "Tha động từ (他)"
+   ],
+   "meaning": "Nướng (nướng vỉ, lò than, áp chảo chín vàng)",
+   "exJp": "肉を<strong>焼きます</strong>。",
+   "exVi": "Nướng thịt bò trên vỉ than hồng."
+  },
+  {
+   "id": "v5",
+   "cat": "cooking",
+   "word": "蒸す",
+   "reading": "むす",
+   "tags": [
+    "Động từ nhóm 1",
+    "Tha động từ (他)"
+   ],
+   "meaning": "Hấp (làm chín thức ăn bằng sức nóng hơi nước)",
+   "exJp": "肉まんを<strong>蒸します</strong>。",
+   "exVi": "Hấp bánh bao trong xửng hấp."
+  },
+  {
+   "id": "v6",
+   "cat": "cooking",
+   "word": "煮る",
+   "reading": "にる",
+   "tags": [
+    "Động từ nhóm 2",
+    "Tha động từ (他)"
+   ],
+   "meaning": "Ninh, hầm, kho (nấu nhỏ lửa cho ngấm gia vị)",
+   "exJp": "肉を<strong>煮ます</strong>。",
+   "exVi": "Ninh/kho thịt cho mềm và đậm đà."
+  },
+  {
+   "id": "v7",
+   "cat": "cooking",
+   "word": "切る",
+   "reading": "きる",
+   "tags": [
+    "Động từ nhóm 1 (Đặc biệt)",
+    "Tha động từ (他)"
+   ],
+   "meaning": "Cắt, thái miếng thực phẩm",
+   "exJp": "野菜を<strong>切ります</strong>。",
+   "exVi": "Cắt/thái rau củ thành miếng vừa ăn."
+  },
+  {
+   "id": "v8",
+   "cat": "cooking",
+   "word": "刻む",
+   "reading": "きざむ",
+   "tags": [
+    "Động từ nhóm 1",
+    "Tha động từ (他)"
+   ],
+   "meaning": "Thái nhỏ, băm nhỏ, thái mịn (dùng cho hành tỏi)",
+   "exJp": "青ネギを<strong>刻みます</strong>。",
+   "exVi": "Thái nhỏ / băm nhỏ hành lá."
+  },
+  {
+   "id": "v9",
+   "cat": "cooking",
+   "word": "剥く",
+   "reading": "むく",
+   "tags": [
+    "Động từ nhóm 1",
+    "Tha động từ (他)"
+   ],
+   "meaning": "Gọt vỏ, lột vỏ (trái cây, củ quả)",
+   "exJp": "りんごの皮を<strong>剥きます</strong>。",
+   "exVi": "Gọt vỏ quả táo."
+  },
+  {
+   "id": "v10",
+   "cat": "cooking",
+   "word": "混ぜる",
+   "reading": "まぜる",
+   "tags": [
+    "Động từ nhóm 2",
+    "Tha động từ (他)"
+   ],
+   "meaning": "Trộn, khuấy đều, đánh (trứng, hỗn hợp)",
+   "exJp": "卵を<strong>混ぜます</strong>。",
+   "exVi": "Đánh / khuấy đều bát trứng."
+  },
+  {
+   "id": "v11",
+   "cat": "cooking",
+   "word": "加える",
+   "reading": "くわえる",
+   "tags": [
+    "Động từ nhóm 2",
+    "Tha động từ (他)"
+   ],
+   "meaning": "Thêm vào, cho thêm gia vị / dầu ăn",
+   "exJp": "油を<strong>加えます</strong>。",
+   "exVi": "Rót thêm dầu ăn vào chảo."
+  },
+  {
+   "id": "v12",
+   "cat": "cooking",
+   "word": "炊く",
+   "reading": "たく",
+   "tags": [
+    "Động từ nhóm 1",
+    "Tha động từ (他)"
+   ],
+   "meaning": "Nấu cơm, thổi cơm (chỉ chuyên dùng cho cơm/gạo)",
+   "exJp": "ご飯を<strong>炊きます</strong>。",
+   "exVi": "Nấu cơm bằng nồi cơm điện."
+  },
+  {
+   "id": "v13",
+   "cat": "kanji",
+   "word": "誘う",
+   "reading": "さそう",
+   "tags": [
+    "Kanji N3"
+   ],
+   "meaning": "Mời mọc, rủ rê đi đâu cùng mình",
+   "exJp": "先生を祭りに誘う。",
+   "exVi": "Rủ thầy giáo đi lễ hội."
+  },
+  {
+   "id": "v14",
+   "cat": "kanji",
+   "word": "断る",
+   "reading": "ことわる",
+   "tags": [
+    "Kanji N3"
+   ],
+   "meaning": "Từ chối, bác bỏ một lời đề nghị",
+   "exJp": "友達の依頼を丁寧に断る。",
+   "exVi": "Lịch sự từ chối lời nhờ vả của bạn."
+  },
+  {
+   "id": "v15",
+   "cat": "kanji",
+   "word": "頼む",
+   "reading": "たのむ",
+   "tags": [
+    "Kanji N3"
+   ],
+   "meaning": "Nhờ vả, nhờ cậy, giao phó",
+   "exJp": "友達に手伝いを頼む。",
+   "exVi": "Nhờ bạn giúp đỡ một tay."
+  },
+  {
+   "id": "v16",
+   "cat": "kanji",
+   "word": "褒める",
+   "reading": "ほめる",
+   "tags": [
+    "Kanji N3"
+   ],
+   "meaning": "Khen ngợi, tán dương thành quả",
+   "exJp": "上手にスピーチをした友達を褒める。",
+   "exVi": "Khen ngợi bạn vì đã phát biểu rất xuất sắc."
+  },
+  {
+   "id": "v17",
+   "cat": "kanji",
+   "word": "同意する",
+   "reading": "どういする",
+   "tags": [
+    "Kanji N3"
+   ],
+   "meaning": "Đồng ý, tán thành quan điểm",
+   "exJp": "相手の意見に同意する。",
+   "exVi": "Tán thành ý kiến của đối phương."
+  },
+  {
+   "id": "v18",
+   "cat": "kanji",
+   "word": "感謝する",
+   "reading": "かんしゃする",
+   "tags": [
+    "Kanji N3"
+   ],
+   "meaning": "Cảm kích, biết ơn sâu sắc",
+   "exJp": "先生に心から感謝する。",
+   "exVi": "Biết ơn thầy cô từ tận đáy lòng."
+  },
+  {
+   "id": "v19",
+   "cat": "kanji",
+   "word": "前置き",
+   "reading": "まえおき",
+   "tags": [
+    "Kanji N3"
+   ],
+   "meaning": "Lời mở đầu, lời rào đón tế nhị",
+   "exJp": "前置きが長くなった。",
+   "exVi": "Phần mở đầu hơi bị dài dòng rồi."
+  },
+  {
+   "id": "v20",
+   "cat": "kanji",
+   "word": "丁寧",
+   "reading": "ていねい",
+   "tags": [
+    "Tính từ đuôi な"
+   ],
+   "meaning": "Lịch sự, nhã nhặn, cẩn thận",
+   "exJp": "丁寧な言葉で話す。",
+   "exVi": "Nói bằng từ ngữ lịch sự."
+  },
+  {
+   "id": "v21",
+   "cat": "kanji",
+   "word": "確認",
+   "reading": "かくにん",
+   "tags": [
+    "Danh từ / Danh động từ"
+   ],
+   "meaning": "Xác nhận, kiểm tra đối chiếu lại",
+   "exJp": "答えをもう一度確認する。",
+   "exVi": "Kiểm tra lại đáp án một lần nữa."
+  },
+  {
+   "id": "v22",
+   "cat": "kanji",
+   "word": "機会",
+   "reading": "きかい",
+   "tags": [
+    "Danh từ N3"
+   ],
+   "meaning": "Cơ hội, thời cơ, dịp tốt",
+   "exJp": "また機会があれば、参加したいです。",
+   "exVi": "Nếu lại có cơ hội, tôi rất muốn tham gia."
+  },
+  {
+   "id": "v23",
+   "cat": "kanji",
+   "word": "授業",
+   "reading": "じゅぎょう",
+   "tags": [
+    "Danh từ N4/N3"
+   ],
+   "meaning": "Giờ học, tiết học trên lớp",
+   "exJp": "授業中、気分が悪くなりました。",
+   "exVi": "Trong giờ học em cảm thấy khó chịu trong người."
+  },
+  {
+   "id": "v24",
+   "cat": "kanji",
+   "word": "依頼",
+   "reading": "いらい",
+   "tags": [
+    "Danh từ / Danh động từ"
+   ],
+   "meaning": "Sự nhờ vả, yêu cầu, thỉnh cầu",
+   "exJp": "友達から辞書を借りたいと依頼された。",
+   "exVi": "Được bạn nhờ mượn cuốn từ điển."
+  },
+  {
+   "id": "v25",
+   "cat": "advanced",
+   "word": "受け入れる",
+   "reading": "うけいれる",
+   "tags": [
+    "Hay nhầm lẫn"
+   ],
+   "meaning": "Tiếp nhận, chấp nhận (du học sinh, ý kiến)",
+   "exJp": "多くの外国人留学生を受け入れている。",
+   "exVi": "Tiếp nhận nhiều du học sinh nước ngoài."
+  },
+  {
+   "id": "v26",
+   "cat": "advanced",
+   "word": "手に入れる",
+   "reading": "てにいれる",
+   "tags": [
+    "Quán dụng ngữ"
+   ],
+   "meaning": "Có được, sở hữu được trong tay (đồ vật)",
+   "exJp": "限定のスニーカーをついに手に入れた。",
+   "exVi": "Cuối cùng cũng sở hữu được đôi giày giới hạn."
+  },
+  {
+   "id": "v27",
+   "cat": "advanced",
+   "word": "競争",
+   "reading": "きょうそう",
+   "tags": [
+    "Từ vựng N3"
+   ],
+   "meaning": "Sự cạnh tranh, thi đua khốc liệt",
+   "exJp": "IT業界の競争はますます激しくなっている。",
+   "exVi": "Sự cạnh tranh ngành IT ngày càng khốc liệt."
+  },
+  {
+   "id": "v28",
+   "cat": "advanced",
+   "word": "生み出す",
+   "reading": "うみだす",
+   "tags": [
+    "Động từ ghép"
+   ],
+   "meaning": "Tạo ra, sản sinh ra (kỷ lục mới, ý tưởng)",
+   "exJp": "世界中が驚く新記録を生み出した。",
+   "exVi": "Tạo ra kỷ lục mới làm cả thế giới kinh ngạc."
+  },
+  {
+   "id": "v29",
+   "cat": "advanced",
+   "word": "広がる",
+   "reading": "ひろがる",
+   "tags": [
+    "Tự động từ (自)"
+   ],
+   "meaning": "Tự lan rộng, mở rộng phạm vi ra",
+   "exJp": "火はあっという間に広がった。",
+   "exVi": "Đám cháy lan rộng chỉ trong chớp mắt."
+  },
+  {
+   "id": "v30",
+   "cat": "advanced",
+   "word": "過ごす",
+   "reading": "すごす",
+   "tags": [
+    "Đi với 時間"
+   ],
+   "meaning": "Trải qua, dành (khoảng thời gian)",
+   "exJp": "友達と楽しい時間を過ごす。",
+   "exVi": "Trải qua quãng thời gian vui vẻ bên bạn bè."
+  },
+  {
+   "id": "v31",
+   "cat": "onomatope",
+   "word": "げらげら",
+   "reading": "geragera",
+   "tags": [
+    "Tiếng cười"
+   ],
+   "meaning": "Cười ha hả, cười ngặt nghẽo to tiếng không ngớt",
+   "exJp": "げらげら大声で笑った。",
+   "exVi": "Cười to ha hả thành tiếng."
+  },
+  {
+   "id": "v32",
+   "cat": "onomatope",
+   "word": "とんとん",
+   "reading": "tonton",
+   "tags": [
+    "Gõ cửa / Nhẹ nhàng"
+   ],
+   "meaning": "Tiếng gõ cửa cộc cộc nhẹ / Thuận lợi trôi chảy",
+   "exJp": "ドアをとんとんと軽くノックした。",
+   "exVi": "Gõ nhẹ vào cửa cốc cốc."
+  },
+  {
+   "id": "v33",
+   "cat": "onomatope",
+   "word": "わくわく",
+   "reading": "wakuwaku",
+   "tags": [
+    "Tâm trạng"
+   ],
+   "meaning": "Háo hức, mong chờ một điều vui sắp tới",
+   "exJp": "明日から旅行なのでわくわくしている。",
+   "exVi": "Mai đi du lịch rồi nên trong lòng rất háo hức."
+  },
+  {
+   "id": "v34",
+   "cat": "onomatope",
+   "word": "わいわい",
+   "reading": "waiwai",
+   "tags": [
+    "Đông người"
+   ],
+   "meaning": "Rôm rả, náo nhiệt, đông người nói cười vui vẻ",
+   "exJp": "みんなでわいわい話す。",
+   "exVi": "Mọi người rôm rả trò chuyện cùng nhau."
+  },
+  {
+   "id": "v35",
+   "cat": "onomatope",
+   "word": "にこにこ",
+   "reading": "nikoniko",
+   "tags": [
+    "Nụ cười"
+   ],
+   "meaning": "Cười mỉm, tươi cười rạng rỡ, hiền hậu",
+   "exJp": "いつもにこにこしていて優しそうだ。",
+   "exVi": "Lúc nào cũng tươi cười trông rất hiền từ."
+  },
+  {
+   "id": "v36",
+   "cat": "onomatope",
+   "word": "ぺこぺこ",
+   "reading": "pekopeko",
+   "tags": [
+    "Cảm giác cơ thể"
+   ],
+   "meaning": "Bụng đói meo, đói cồn cào / Cúi đầu khúm núm",
+   "exJp": "お腹がぺこぺこだ。",
+   "exVi": "Bụng tôi đói meo rồi."
+  },
+  {
+   "id": "v37",
+   "cat": "onomatope",
+   "word": "くたくた",
+   "reading": "kutakuta",
+   "tags": [
+    "Mệt mỏi"
+   ],
+   "meaning": "Mệt rã rời, kiệt sức, nhừ cả người",
+   "exJp": "10km走ったから、もうくたくただ。",
+   "exVi": "Chạy 10km rồi nên người mệt rã rời."
+  },
+  {
+   "id": "v38",
+   "cat": "onomatope",
+   "word": "どきどき",
+   "reading": "dokidoki",
+   "tags": [
+    "Nhịp tim"
+   ],
+   "meaning": "Hồi hộp, tim đập thình thịch liên hồi",
+   "exJp": "好きな女の子の前だと、どきどきする。",
+   "exVi": "Đứng trước người mình thích là tim đập thình thịch."
+  },
+  {
+   "id": "v39",
+   "cat": "onomatope",
+   "word": "ときどき",
+   "reading": "tokidoki",
+   "tags": [
+    "Tần suất"
+   ],
+   "meaning": "Thỉnh thoảng, đôi khi (tần suất khoảng 20-30%)",
+   "exJp": "ときどき日本料理店へ行く。",
+   "exVi": "Thỉnh thoảng tôi có đến quán ăn Nhật."
+  },
+  {
+   "id": "v40",
+   "cat": "onomatope",
+   "word": "ひりひり",
+   "reading": "hirihiri",
+   "tags": [
+    "Đau rát"
+   ],
+   "meaning": "Đau rát buốt, xót (do trầy xước da, bỏng, cay)",
+   "exJp": "道で転んで、足がひりひりする。",
+   "exVi": "Ngã trên đường nên vết thương ở chân rát buốt."
+  },
+  {
+   "id": "v41",
+   "cat": "onomatope",
+   "word": "にやにや",
+   "reading": "niyaniya",
+   "tags": [
+    "Cười thầm"
+   ],
+   "meaning": "Cười mỉm một mình, cười nhăn nhở bí hiểm",
+   "exJp": "スマホを見ながらにやにやしている。",
+   "exVi": "Vừa nhìn điện thoại vừa cười thầm một mình."
+  },
+  {
+   "id": "v42",
+   "cat": "onomatope",
+   "word": "むかむか",
+   "reading": "mukamuka",
+   "tags": [
+    "Khó chịu dạ dày"
+   ],
+   "meaning": "Cồn cào nôn nao, buồn nôn, khó chịu ở ngực/bụng",
+   "exJp": "お酒をたくさん飲んだので胸がむかむかする。",
+   "exVi": "Uống nhiều rượu nên ngực/dạ dày nôn nao khó chịu."
+  },
+  {
+   "id": "v43",
+   "cat": "onomatope",
+   "word": "ぴりぴり",
+   "reading": "piripiri",
+   "tags": [
+    "Căng thẳng / Tê rát"
+   ],
+   "meaning": "Bầu không khí căng như dây đàn / Vị cay tê lưỡi",
+   "exJp": "試験前で教室がぴりぴりしている。",
+   "exVi": "Trước giờ thi cả phòng học căng thẳng tột độ."
+  },
+  {
+   "id": "v44",
+   "cat": "onomatope",
+   "word": "むずむず",
+   "reading": "muzumuzu",
+   "tags": [
+    "Ngứa ngáy"
+   ],
+   "meaning": "Ngứa ngáy, nhồn nhột ở mũi / Bứt rứt muốn làm gì",
+   "exJp": "鼻がむずむずして、くしゃみが出そうだ。",
+   "exVi": "Mũi cứ ngứa nhồn nhột, như sắp hắt xì hơi."
+  },
+  {
+   "id": "v45",
+   "cat": "onomatope",
+   "word": "どんどん",
+   "reading": "dondon",
+   "tags": [
+    "Nhanh chóng"
+   ],
+   "meaning": "Tiến triển nhanh chóng, liên tục, dồn dập",
+   "exJp": "日本語の単語をどんどん覚える。",
+   "exVi": "Học từ vựng tiếng Nhật một cách nhanh chóng."
+  },
+  {
+   "id": "v46",
+   "cat": "onomatope",
+   "word": "ぐだぐだ",
+   "reading": "gudaguda",
+   "tags": [
+    "Lải nhải / Say mèm"
+   ],
+   "meaning": "Lải nhải phàn nàn dai dẳng / Say mèm rệu rã",
+   "exJp": "ぐだぐだ言ってないで早くやりなさい。",
+   "exVi": "Đừng lải nhải nữa mà mau làm đi!"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "① V-る + のに (便利だ / 使う / 必要だ...)",
+   "tag": "Mục đích, công dụng: Tiện lợi / Cần thiết cho việc gì",
+   "body": "<div class=\"g-desc\">\n                Dùng để diễn tả công dụng, mục đích của đồ vật hoặc đánh giá mức độ tiện lợi, thời gian, tiền bạc phục vụ cho một hành động.\n              </div>\n              <div class=\"g-formula-box\">\n                📌 <strong>Công thức:</strong> <code>Động từ thể từ điển (V-る) + のに + [便利 / 時間がかかる / 役に立つ]</code>\n              </div>\n              <div class=\"g-examples-wrap\">\n                <div class=\"g-ex-row\">\n                  <div>\n                    <div class=\"g-jp\">この辞書は、N3の漢字の意味を<span>調べるのに</span>とても便利です。</div>\n                    <div class=\"vi\">→ Cuốn từ điển này rất tiện cho việc tra cứu ý nghĩa chữ Hán N3.</div>\n                  </div>\n                  <button class=\"speak\" data-say=\"この辞書は、N3の漢字の意味を調べるのにとても便利です。\" aria-label=\"Phát âm\"></button>\n                </div>\n              </div>"
+  },
+  {
+   "pattern": "② V-ている / Thể thông thường + のに",
+   "tag": "Thế mà, vậy mà (Tương phản ngoài mong đợi / Bất mãn)",
+   "body": "<div class=\"g-desc\">\n                Diễn tả sự việc vế sau xảy ra hoàn toàn trái ngược với kết quả đương nhiên được dự đoán ở vế trước. Luôn đi kèm tâm trạng tiếc nuối, bất mãn hoặc ngạc nhiên của người nói.\n              </div>\n              <div class=\"g-formula-box\">\n                📌 <strong>Công thức:</strong> <code>V-ている / A / N + な + のに</code> (Khác với <em>～ても</em> là câu vế sau của <em>のに</em> đã là một thực tế đã/đang xảy ra).\n              </div>\n              <div class=\"g-examples-wrap\">\n                <div class=\"g-ex-row\">\n                  <div>\n                    <div class=\"g-jp\">毎日３時間も日本語を<span>勉強しているのに</span>、テストの点数がなかなか上がりません。</div>\n                    <div class=\"vi\">→ Mỗi ngày học tới 3 tiếng tiếng Nhật thế mà điểm bài thi mãi chẳng chịu tăng.</div>\n                  </div>\n                  <button class=\"speak\" data-say=\"毎日３時間も日本語を勉強しているのに、テストの点数がなかなか上がりません。\" aria-label=\"Phát âm\"></button>\n                </div>\n              </div>"
+  },
+  {
+   "pattern": "③ N + に関係なく / に関係なしに",
+   "tag": "Bất kể, không liên quan đến N",
+   "body": "<div class=\"g-desc\">\n                Nhấn mạnh sự việc ở vế sau luôn được thực hiện hoặc xảy ra một cách bình đẳng, không bị ảnh hưởng hay phụ thuộc vào điều kiện, tuổi tác, giới tính, cấp bậc của N.\n              </div>\n              <div class=\"g-formula-box\">\n                📌 <strong>Công thức:</strong> <code>Danh từ (N) + に関係なく / に関係なしに</code>\n              </div>\n              <div class=\"g-examples-wrap\">\n                <div class=\"g-ex-row\">\n                  <div>\n                    <div class=\"g-jp\">このサークルは、学年に<span>関係なく</span>、誰でも入ることができます。</div>\n                    <div class=\"vi\">→ Câu lạc bộ này bất kể là sinh viên năm mấy thì ai cũng đều có thể tham gia.</div>\n                  </div>\n                  <button class=\"speak\" data-say=\"このサークルは、学年に関係なく、誰でも入ることができます。\" aria-label=\"Phát âm\"></button>\n                </div>\n              </div>"
+  },
+  {
+   "pattern": "④ V-る / Nの + ために",
+   "tag": "Để, vì mục tiêu tương lai (Hành động có chủ ý)",
+   "body": "<div class=\"g-desc\">\n                Vế trước là mục tiêu, định hướng trong tương lai. Vế sau là hành động cụ thể, có ý chí nỗ lực của bản thân để đạt được mục tiêu đó. Cả 2 vế cùng một chủ ngữ.\n              </div>\n              <div class=\"g-formula-box\">\n                📌 <strong>Công thức:</strong> <code>Động từ thể từ điển (V-る) / Nの + ために</code>\n              </div>\n              <div class=\"g-examples-wrap\">\n                <div class=\"g-ex-row\">\n                  <div>\n                    <div class=\"g-jp\">来年N2に<span>合格するために</span>、今から毎日10個ずつ単語を覚えています。</div>\n                    <div class=\"vi\">→ Để thi đỗ N2 vào năm tới, từ bây giờ ngày nào tôi cũng học 10 từ vựng.</div>\n                  </div>\n                  <button class=\"speak\" data-say=\"来年N2に合格するために、今から毎日10個ずつ単語を覚えています。\" aria-label=\"Phát âm\"></button>\n                </div>\n              </div>"
+  },
+  {
+   "pattern": "⑤ V-た / V-る / Nの + ため (に)",
+   "tag": "Bởi vì, do... (Nguyên nhân khách quan)",
+   "body": "<div class=\"g-desc\">\n                Dùng trong văn viết, phát thanh, thông báo trang trọng chỉ ra nguyên nhân, lý do khách quan dẫn đến một sự cố hoặc hậu quả (thường không đi kèm với mệnh lệnh, rủ rê).\n              </div>\n              <div class=\"g-formula-box\">\n                📌 <strong>Công thức:</strong> <code>Thể thông thường (Quá khứ: V-た) / Nの + ため</code>\n              </div>\n              <div class=\"g-examples-wrap\">\n                <div class=\"g-ex-row\">\n                  <div>\n                    <div class=\"g-jp\">今朝は事故が<span>あったため</span>、電車が30分も遅れました。</div>\n                    <div class=\"vi\">→ Sáng nay do có vụ tai nạn nên tàu điện bị chậm tới 30 phút.</div>\n                  </div>\n                  <button class=\"speak\" data-say=\"今朝は事故があったため、電車が30分も遅れました。\" aria-label=\"Phát âm\"></button>\n                </div>\n              </div>"
+  },
+  {
+   "pattern": "⑥ ～ていく vs ～てくる (Phương hướng & Trục thời gian)",
+   "tag": "Tiến lại gần / Đi ra xa & Quá khứ đến nay / Nay đến tương lai",
+   "body": "<div class=\"g-desc\">\n                <strong>～てくる:</strong> Di chuyển lại gần người nói (こちらへ走って来る) hoặc sự biến đổi tích lũy từ quá khứ đến hiện tại (慣れて来る).<br>\n                <strong>～ていく:</strong> Di chuyển rời xa người nói (日本へ飛んで行く) hoặc sự việc tiếp tục từ hiện tại hướng về tương lai.\n              </div>\n              <div class=\"g-examples-wrap\">\n                <div class=\"g-ex-row\">\n                  <div>\n                    <div class=\"g-jp\">トラックがこちらに向かって<span>走って来ました</span>。</div>\n                    <div class=\"vi\">(Chiếc xe tải lớn đang chạy hướng lại gần phía chúng ta).</div>\n                  </div>\n                  <button class=\"speak\" data-say=\"トラックがこちらに向かって走って来ました。\" aria-label=\"Phát âm\"></button>\n                </div>\n                <div class=\"g-ex-row\">\n                  <div>\n                    <div class=\"g-jp\">大学に入ってから2年、大学生活にも<span>慣れて来ました</span>。</div>\n                    <div class=\"vi\">(Sau 2 năm vào đại học, tôi đã dần quen với cuộc sống nơi đây).</div>\n                  </div>\n                  <button class=\"speak\" data-say=\"大学に入ってから2年、大学生活にも慣れて来ました。\" aria-label=\"Phát âm\"></button>\n                </div>\n              </div>"
+  },
+  {
+   "pattern": "⑦ Mẫu câu giao tiếp ứng xử tình huống thực tế",
+   "tag": "Khen ngợi bạn bè, Rủ rê lịch sự & Lời rào đón từ chối",
+   "body": "<div class=\"g-desc\">\n                Ba tình huống ứng xử điển hình trong đời sống và đề thi JLPT:\n              </div>\n              <div class=\"g-examples-wrap\">\n                <div class=\"g-ex-row\">\n                  <div class=\"g-jp\">\n                    <span class=\"badge-tag tag-blue\">Khen bạn</span>\n                    <strong>スピーチ、すごかったよ。日本語が上手なんだね。</strong>\n                    <div class=\"vi\">(Bài phát biểu tuyệt vời lắm đó, cậu giỏi tiếng Nhật thật đấy!)</div>\n                  </div>\n                  <button class=\"speak\" data-say=\"スピーチ、すごかったよ。日本語が上手なんだね。\" aria-label=\"Phát âm\"></button>\n                </div>\n\n                <div class=\"g-ex-row\">\n                  <div class=\"g-jp\">\n                    <span class=\"badge-tag tag-green\">Rủ thầy cô</span>\n                    <strong>今週末、私の故郷でリム祭りがあるんですが、よろしかったら、ご一緒にいかがですか。</strong>\n                    <div class=\"vi\">(Cuối tuần này ở quê em có Hội Lim, nếu thầy thấy tiện thì cùng đi với em được không ạ?)</div>\n                  </div>\n                  <button class=\"speak\" data-say=\"今週末、私の故郷でリム祭りがあるんですが、よろしかったら、ご一緒にいかがですか。\" aria-label=\"Phát âm\"></button>\n                </div>\n\n                <div class=\"g-ex-row\">\n                  <div class=\"g-jp\">\n                    <span class=\"badge-tag tag-rose\">Từ chối khéo</span>\n                    <strong>悪いけど、来週テストがあるから、私も使いたいんだ。</strong>\n                    <div class=\"vi\">(Ngại quá, nhưng tuần tới tớ có bài thi nên tớ cũng cần dùng cuốn từ điển này).</div>\n                  </div>\n                  <button class=\"speak\" data-say=\"悪いけど、来週テストがあるから、私も使いたいんだ。\" aria-label=\"Phát âm\"></button>\n                </div>\n              </div>"
+  }
+ ],
+ "exams": [
+  {
+   "id": 1,
+   "kind": "picture",
+   "title": "問題 1：絵を見て適切な動詞を書いてください。",
+   "data": [
+    {
+     "img": "svg/ck1.svg",
+     "vi": "Chiên tôm ngập dầu",
+     "viShort": "Rán, chiên giòn",
+     "sentence": "エビを <span class=\"ans\" role=\"button\" tabindex=\"0\"><ruby>揚<rt>あ</rt></ruby>げます</span>。",
+     "hint": "Động từ: 揚げる (あげます)"
+    },
+    {
+     "img": "svg/ck2.svg",
+     "vi": "Xào rau củ",
+     "viShort": "Xào qua chảo",
+     "sentence": "野菜を <span class=\"ans\" role=\"button\" tabindex=\"0\"><ruby>炒<rt>いた</rt></ruby>めます</span>。",
+     "hint": "Động từ: 炒める (いためます)"
+    },
+    {
+     "img": "svg/ck3.svg",
+     "vi": "Luộc rau",
+     "viShort": "Luộc trong nước sôi",
+     "sentence": "野菜を <span class=\"ans\" role=\"button\" tabindex=\"0\"><ruby>茹<rt>ゆ</rt></ruby>でます</span>。",
+     "hint": "Động từ: 茹でる (ゆでます)"
+    },
+    {
+     "img": "svg/ck4.svg",
+     "vi": "Nướng thịt",
+     "viShort": "Nướng vỉ, than hồng",
+     "sentence": "肉を <span class=\"ans\" role=\"button\" tabindex=\"0\"><ruby>焼<rt>や</rt></ruby>きます</span>。",
+     "hint": "Động từ: 焼く (やきます)"
+    },
+    {
+     "img": "svg/ck5.svg",
+     "vi": "Hấp bánh bao",
+     "viShort": "Hấp bằng hơi nước",
+     "sentence": "肉まんを <span class=\"ans\" role=\"button\" tabindex=\"0\"><ruby>蒸<rt>む</rt></ruby>します</span>。",
+     "hint": "Động từ: 蒸す (むします)"
+    },
+    {
+     "img": "svg/ck6.svg",
+     "vi": "Ninh/hầm/kho thịt",
+     "viShort": "Kho, hầm trong nước sốt",
+     "sentence": "肉を <span class=\"ans\" role=\"button\" tabindex=\"0\"><ruby>煮<rt>に</rt></ruby>ます</span>。",
+     "hint": "Động từ: 煮る (にます)"
+    },
+    {
+     "img": "svg/ck7.svg",
+     "vi": "Cắt rau",
+     "viShort": "Cắt, thái",
+     "sentence": "野菜を <span class=\"ans\" role=\"button\" tabindex=\"0\"><ruby>切<rt>き</rt></ruby>ります</span>。",
+     "hint": "Động từ: 切る (きります)"
+    },
+    {
+     "img": "svg/ck8.svg",
+     "vi": "Băm nhỏ hành lá",
+     "viShort": "Thái nhỏ, băm mịn",
+     "sentence": "青ネギを <span class=\"ans\" role=\"button\" tabindex=\"0\"><ruby>刻<rt>きざ</rt></ruby>みます</span>。",
+     "hint": "Động từ: 刻む (きざみます)"
+    },
+    {
+     "img": "svg/ck9.svg",
+     "vi": "Gọt vỏ táo",
+     "viShort": "Lột/gọt vỏ",
+     "sentence": "りんごの<ruby>皮<rt>かわ</rt></ruby>を <span class=\"ans\" role=\"button\" tabindex=\"0\"><ruby>剥<rt>む</rt></ruby>きます</span>。",
+     "hint": "Động từ: 剥く (むきます)"
+    },
+    {
+     "img": "svg/ck10.svg",
+     "vi": "Đánh / trộn trứng",
+     "viShort": "Khuấy đều",
+     "sentence": "卵を <span class=\"ans\" role=\"button\" tabindex=\"0\"><ruby>混<rt>ま</rt></ruby>ぜます</span>。",
+     "hint": "Động từ: 混ぜる (まぜます)"
+    },
+    {
+     "img": "svg/ck11.svg",
+     "vi": "Thêm dầu ăn",
+     "viShort": "Cho thêm vào",
+     "sentence": "油を <span class=\"ans\" role=\"button\" tabindex=\"0\"><ruby>加<rt>くわ</rt></ruby>えます</span>。",
+     "hint": "Động từ: 加える (くわえます)"
+    },
+    {
+     "img": "svg/ck12.svg",
+     "vi": "Nấu cơm",
+     "viShort": "Thổi cơm",
+     "sentence": "ご飯を <span class=\"ans\" role=\"button\" tabindex=\"0\"><ruby>炊<rt>た</rt></ruby>きます</span>。",
+     "hint": "Động từ: 炊く (たきます)"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "kind": "reading",
+   "title": "問題 2：漢字の読み方を書いてください。",
+   "data": [
+    {
+     "kanji": "誘う",
+     "meaning": "mời, rủ rê",
+     "reading": "さそう"
+    },
+    {
+     "kanji": "断る",
+     "meaning": "từ chối",
+     "reading": "ことわる"
+    },
+    {
+     "kanji": "頼む",
+     "meaning": "nhờ vả, yêu cầu",
+     "reading": "たのむ"
+    },
+    {
+     "kanji": "褒める",
+     "meaning": "khen ngợi",
+     "reading": "ほめる"
+    },
+    {
+     "kanji": "同意する",
+     "meaning": "đồng ý, tán thành",
+     "reading": "どういする"
+    },
+    {
+     "kanji": "感謝する",
+     "meaning": "cảm kích, cảm ơn",
+     "reading": "かんしゃする"
+    },
+    {
+     "kanji": "前置き",
+     "meaning": "lời mở đầu, rào trước",
+     "reading": "まえおき"
+    },
+    {
+     "kanji": "丁寧",
+     "meaning": "lịch sự, cẩn thận",
+     "reading": "ていねい"
+    },
+    {
+     "kanji": "確認",
+     "meaning": "xác nhận, kiểm tra",
+     "reading": "かくにん"
+    },
+    {
+     "kanji": "機会",
+     "meaning": "cơ hội, dịp",
+     "reading": "きかい"
+    },
+    {
+     "kanji": "授業",
+     "meaning": "tiết học, bài học",
+     "reading": "じゅぎょう"
+    },
+    {
+     "kanji": "依頼",
+     "meaning": "yêu cầu, nhờ cậy",
+     "reading": "いらい"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "kind": "conjugate",
+   "title": "問題 3：（ ）の言葉を適切な形に書いてください。",
+   "data": [
+    {
+     "text": "この<ruby>辞書<rt>じしょ</rt></ruby>は、N3の<ruby>漢字<rt>かんじ</rt></ruby>の<ruby>意味<rt>いみ</rt></ruby>を（調べる）→ <span class=\"ans\" role=\"button\" tabindex=\"0\">調べる</span> のにとても<ruby>便利<rt>べんり</rt></ruby>です。",
+     "explain": "💡 <strong>Mục đích:</strong> <code>V-る + のに便利です</code> (Rất tiện lợi cho việc tra nghĩa chữ Hán N3)."
+    },
+    {
+     "text": "<ruby>毎日<rt>まいにち</rt></ruby>３<ruby>時間<rt>じかん</rt></ruby>も<ruby>日本語<rt>にほんご</rt></ruby>を（勉強する）→ <span class=\"ans\" role=\"button\" tabindex=\"0\">勉強している</span> のに、テストの<ruby>点数<rt>てんすう</rt></ruby>がなかなか<ruby>上<rt>あ</rt></ruby>がりません。",
+     "explain": "💡 <strong>Đối lập/bất mãn:</strong> <code>V-ている + のに</code> (Mặc dù đang học tới 3 tiếng mỗi ngày thế mà điểm vẫn mãi không tăng)."
+    },
+    {
+     "text": "このサークルは、<ruby>学年<rt>がくねん</rt></ruby>に（関係する）→ <span class=\"ans\" role=\"button\" tabindex=\"0\">関係なく</span> 、<ruby>誰<rt>だれ</rt></ruby>でも<ruby>入<rt>はい</rt></ruby>ることができます。",
+     "explain": "💡 <strong>Mẫu câu:</strong> <code>～に関係なく</code> (Bất kể / không liên quan tới năm học/khóa học nào, ai cũng có thể tham gia)."
+    },
+    {
+     "text": "<ruby>来年<rt>らいねん</rt></ruby>N2に（合格する）→ <span class=\"ans\" role=\"button\" tabindex=\"0\">合格する</span> ために、<ruby>今<rt>いま</rt></ruby>から<ruby>毎日<rt>まいにち</rt></ruby>10<ruby>個<rt>こ</rt></ruby>ずつ<ruby>単語<rt>たんご</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えています。",
+     "explain": "💡 <strong>Mục tiêu:</strong> <code>V-る + ために</code> (Để đỗ N2 vào năm tới, từ bây giờ mỗi ngày tôi đều học 10 từ vựng)."
+    },
+    {
+     "text": "<ruby>今朝<rt>けさ</rt></ruby>は<ruby>事故<rt>じこ</rt></ruby>が（ある）→ <span class=\"ans\" role=\"button\" tabindex=\"0\">あった</span> ため、<ruby>電車<rt>でんしゃ</rt></ruby>が30<ruby>分<rt>ぷん</rt></ruby>も<ruby>遅<rt>おく</rt></ruby>れました。",
+     "explain": "💡 <strong>Nguyên nhân quá khứ:</strong> <code>V-た + ため</code> (Do sáng nay đã xảy ra tai nạn nên tàu điện bị trễ tới 30 phút)."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "kind": "choice",
+   "title": "問題 4：正しいものを選びなさい。",
+   "data": [
+    {
+     "q": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>大学<rt>だいがく</rt></ruby>は、<ruby>毎年<rt>まいとし</rt></ruby><ruby>多<rt>おお</rt></ruby>くの<ruby>外国人<rt>がいこくじん</rt></ruby><ruby>留学生<rt>りゅうがくせい</rt></ruby>を（　）。",
+     "options": [
+      "手に入れている",
+      "受け入れている"
+     ],
+     "answer": 1,
+     "explain": "💡 <strong>受け入れる (うけいれる):</strong> Tiếp nhận, dung nạp (du học sinh)."
+    },
+    {
+     "q": "ずっと<ruby>欲<rt>ほ</rt></ruby>しかった<ruby>限定<rt>げんてい</rt></ruby>のスニーカーを、ついに（　）。",
+     "options": [
+      "手に入れた",
+      "受け入れた"
+     ],
+     "answer": 0,
+     "explain": "💡 <strong>手に入れる (てにいれる):</strong> Sở hữu được, có được trong tay."
+    },
+    {
+     "q": "AIの<ruby>技術<rt>ぎじゅつ</rt></ruby>が<ruby>発展<rt>はってん</rt></ruby>してから、IT<ruby>業界<rt>ぎょうかい</rt></ruby>の（　）はますます<ruby>激<rt>はげ</rt></ruby>しくなっている。",
+     "options": [
+      "競争",
+      "配達"
+     ],
+     "answer": 0,
+     "explain": "💡 <strong>競争 (きょうそう):</strong> Cạnh tranh khốc liệt."
+    },
+    {
+     "q": "オリンピックで<ruby>彼<rt>かれ</rt></ruby>は<ruby>素晴<rt>すば</rt></ruby>らしい<ruby>走<rt>はし</rt></ruby>りを<ruby>見<rt>み</rt></ruby>せ、<ruby>世界中<rt>せかいじゅう</rt></ruby>が<ruby>驚<rt>おどろ</rt></ruby>く<ruby>新記録<rt>しんきろく</rt></ruby>を（　）。",
+     "options": [
+      "生み出した",
+      "広がった"
+     ],
+     "answer": 0,
+     "explain": "💡 <strong>生み出す (うみだす):</strong> Tạo ra, sản sinh ra kỷ lục mới."
+    },
+    {
+     "q": "<ruby>隣<rt>となり</rt></ruby>で<ruby>火事<rt>かじ</rt></ruby>があり、<ruby>火<rt>ひ</rt></ruby>はあっという<ruby>間<rt>ま</rt></ruby>に（　）。",
+     "options": [
+      "広がった",
+      "広げた"
+     ],
+     "answer": 0,
+     "explain": "💡 <strong>広がる (ひろがる):</strong> Tự động từ (lửa tự lan rộng ra)."
+    },
+    {
+     "q": "カフェで<ruby>友達<rt>ともだち</rt></ruby>とおしゃべりしながら、<ruby>楽<rt>たの</rt></ruby>しい<ruby>時間<rt>じかん</rt></ruby>を（　）のが<ruby>好<rt>す</rt></ruby>きです。",
+     "options": [
+      "利用する",
+      "過ごす"
+     ],
+     "answer": 1,
+     "explain": "💡 <strong>時間を過ごす (すごす):</strong> Trải qua khoảng thời gian vui vẻ."
+    },
+    {
+     "q": "<ruby>大<rt>おお</rt></ruby>きなトラックがこちらに<ruby>向<rt>む</rt></ruby>かって<ruby>走<rt>はし</rt></ruby>って（　）。",
+     "options": [
+      "行きました",
+      "来ました"
+     ],
+     "answer": 1,
+     "explain": "💡 <strong>走って来る (くる):</strong> Chạy lại gần về phía người nói."
+    },
+    {
+     "q": "<ruby>姉<rt>あね</rt></ruby>が<ruby>乗<rt>の</rt></ruby>った<ruby>飛行機<rt>ひこうき</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>へ<ruby>向<rt>む</rt></ruby>かって<ruby>飛<rt>と</rt></ruby>んで（　）。",
+     "options": [
+      "行きました",
+      "来ました"
+     ],
+     "answer": 0,
+     "explain": "💡 <strong>飛んで行く (いく):</strong> Bay ra xa dần khỏi người nói."
+    },
+    {
+     "q": "<ruby>大学<rt>だいがく</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ってから、2<ruby>年<rt>ねん</rt></ruby>が<ruby>経<rt>た</rt></ruby>ったので、<ruby>大学生活<rt>だいがくせいかつ</rt></ruby>にも<ruby>慣<rt>な</rt></ruby>れて（　）。",
+     "options": [
+      "行きました",
+      "来ました"
+     ],
+     "answer": 1,
+     "explain": "💡 <strong>慣れて来る (てくる):</strong> Dần dần quen tích lũy từ quá khứ đến nay."
+    },
+    {
+     "q": "これからも<ruby>自分<rt>じぶん</rt></ruby>の<ruby>夢<rt>ゆめ</rt></ruby>に<ruby>向<rt>む</rt></ruby>かって<ruby>頑張<rt>がんば</rt></ruby>って（　）。",
+     "options": [
+      "行きます",
+      "来ます"
+     ],
+     "answer": 1,
+     "explain": "📌 <strong>Ghi chú:</strong> Đáp án trong tài liệu được bôi đỏ là <code>B. 来ます</code>."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "kind": "scenario",
+   "title": "問題 5：下の場面では、何と言いますか。",
+   "data": [
+    {
+     "example": true,
+     "q": "<ruby>授業中<rt>じゅぎょうちゅう</rt></ruby>、<ruby>気分<rt>きぶん</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>くなりましたので、<ruby>外<rt>そと</rt></ruby>で<ruby>少<rt>すこ</rt></ruby>し<ruby>休<rt>やす</rt></ruby>みたいです。<ruby>先生<rt>せんせい</rt></ruby>に<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。\n                <div class=\"vi\">(Trong giờ học bạn bị mệt, muốn ra ngoài nghỉ một chút. Bạn nói gì với thầy/cô?)</div>",
+     "answer": "<ruby>先生<rt>せんせい</rt></ruby>、<ruby>気分<rt>きぶん</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いので、<ruby>外<rt>そと</rt></ruby>で<ruby>少<rt>すこ</rt></ruby>し<ruby>休<rt>やす</rt></ruby>んでもいいでしょうか。",
+     "explain": ""
+    },
+    {
+     "example": false,
+     "q": "<ruby>友達<rt>ともだち</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>に<ruby>日本語<rt>にほんご</rt></ruby>でスピーチをしました。<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>って<ruby>友達<rt>ともだち</rt></ruby>を<ruby>褒<rt>ほ</rt></ruby>めますか。",
+     "answer": "スピーチ、すごかったよ。日本語が上手なんだね。",
+     "explain": "💡 Dùng thể ngắn thân mật với bạn bè: <code>すごかったよ</code>, <code>～なんだね</code>."
+    },
+    {
+     "example": false,
+     "q": "<ruby>今月末<rt>こんげつまつ</rt></ruby>に<ruby>故郷<rt>こきょう</rt></ruby>で<ruby>有名<rt>ゆうめい</rt></ruby>なリム<ruby>祭<rt>まつ</rt></ruby>り<span class=\"vi\">（Hội Lim）</span>があり、<ruby>先生<rt>せんせい</rt></ruby>を<ruby>誘<rt>さそ</rt></ruby>いたいです。<ruby>先生<rt>せんせい</rt></ruby>に<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。",
+     "answer": "今週末、私の故郷でリム祭りがあるんですが、よろしかったら、ご一緒にいかがですか。",
+     "explain": "💡 Mời lịch sự bề trên: <code>～んですが</code>, <code>よろしかったら</code>, <code>ご一緒にいかがですか</code>."
+    },
+    {
+     "example": false,
+     "q": "<ruby>友達<rt>ともだち</rt></ruby>から<ruby>辞書<rt>じしょ</rt></ruby>を<ruby>借<rt>か</rt></ruby>りたいと<ruby>依頼<rt>いらい</rt></ruby>されましたが、<ruby>来週<rt>らいしゅう</rt></ruby>テストがある。<ruby>友達<rt>ともだち</rt></ruby>に<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>って<ruby>断<rt>ことわ</rt></ruby>りますか。",
+     "answer": "悪いけど、来週テストがあるから、私も使いたいんだ。",
+     "explain": "💡 Lời mở đầu rào đón <code>悪いけど</code> + lý do <code>～から</code> + <code>～んだ</code>."
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "kind": "fill",
+   "title": "問題 6：一番いいものを口の中から選んで下さい。1度しか使えません。",
+   "data": {
+    "bank": [
+     {
+      "key": "A",
+      "text": "げらげら",
+      "vi": "Cười ha hả, cười to"
+     },
+     {
+      "key": "B",
+      "text": "とんとん",
+      "vi": "Gõ cốc cốc, suôn sẻ"
+     },
+     {
+      "key": "C",
+      "text": "わくわく",
+      "vi": "Háo hức, mong chờ"
+     },
+     {
+      "key": "D",
+      "text": "わいわい",
+      "vi": "Rôm rả, náo nhiệt"
+     },
+     {
+      "key": "E",
+      "text": "にこにこ",
+      "vi": "Cười mỉm, tươi tắn"
+     },
+     {
+      "key": "F",
+      "text": "ぺこぺこ",
+      "vi": "Đói meo / khúm núm"
+     },
+     {
+      "key": "G",
+      "text": "くたくた",
+      "vi": "Mệt rã rời, kiệt sức"
+     },
+     {
+      "key": "H",
+      "text": "どきどき",
+      "vi": "Hồi hộp, tim đập thình thịch"
+     },
+     {
+      "key": "I",
+      "text": "ときどき",
+      "vi": "Thỉnh thoảng, đôi khi"
+     },
+     {
+      "key": "J",
+      "text": "ひりひり",
+      "vi": "Đau rát, xót (vết thương)"
+     },
+     {
+      "key": "K",
+      "text": "にやにや",
+      "vi": "Cười nhăn nhở, cười thầm"
+     },
+     {
+      "key": "L",
+      "text": "むかむか",
+      "vi": "Buồn nôn, cồn cào ngực"
+     },
+     {
+      "key": "M",
+      "text": "ぴりぴり",
+      "vi": "Căng thẳng / cay xè"
+     },
+     {
+      "key": "N",
+      "text": "むずむず",
+      "vi": "Ngứa ngáy, nhồn nhột mũi"
+     },
+     {
+      "key": "O",
+      "text": "どんどん",
+      "vi": "Dồn dập, nhanh chóng"
+     },
+     {
+      "key": "P",
+      "text": "ぐだぐだ",
+      "vi": "Lải nhải, say xỉn rệu rã"
+     }
+    ],
+    "items": [
+     {
+      "parts": [
+       "お<ruby>酒<rt>さけ</rt></ruby>をたくさん<ruby>飲<rt>の</rt></ruby>んだので、<ruby>今朝<rt>けさ</rt></ruby>から<ruby>胸<rt>むね</rt></ruby>が",
+       "している。"
+      ],
+      "answer": "L",
+      "vi": "Uống nhiều rượu nên dạ dày/ngực cứ cồn cào buồn nôn."
+     },
+     {
+      "parts": [
+       "<ruby>今日<rt>きょう</rt></ruby>は10km<ruby>走<rt>はし</rt></ruby>ったから、もう",
+       "だ。"
+      ],
+      "answer": "G",
+      "vi": "Chạy những 10km nên người đã mệt rã rời kiệt sức rồi."
+     },
+     {
+      "parts": [
+       "<ruby>忙<rt>いそが</rt></ruby>しくて<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べていないから、もうお<ruby>腹<rt>なか</rt></ruby>が",
+       "だ。"
+      ],
+      "answer": "F",
+      "vi": "Bận quá chưa ăn trưa nên bụng đói cồn cào."
+     },
+     {
+      "parts": [
+       "Huyさんは、ドアを",
+       "と<ruby>軽<rt>かる</rt></ruby>くノックした。"
+      ],
+      "answer": "B",
+      "vi": "Bạn Huy gõ nhẹ vào cửa cộc cộc."
+     },
+     {
+      "parts": [
+       "<ruby>面白<rt>おもしろ</rt></ruby>いテレビ<ruby>番組<rt>ばんぐみ</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、みんな",
+       "<ruby>大声<rt>おおごえ</rt></ruby>で<ruby>笑<rt>わら</rt></ruby>った。"
+      ],
+      "answer": "A",
+      "vi": "Mọi người cười ha hả thành tiếng lớn."
+     },
+     {
+      "parts": [
+       "<ruby>好<rt>す</rt></ruby>きな<ruby>女<rt>おんな</rt></ruby>の<ruby>子<rt>こ</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>だと、",
+       "して、うまく<ruby>話<rt>はな</rt></ruby>せない。"
+      ],
+      "answer": "H",
+      "vi": "Đứng trước bạn nữ mình thích là tim đập thình thịch."
+     },
+     {
+      "parts": [
+       "<ruby>鼻<rt>はな</rt></ruby>が",
+       "して、くしゃみが<ruby>出<rt>で</rt></ruby>そうだ。"
+      ],
+      "answer": "N",
+      "vi": "Mũi cứ ngứa nhồn nhột, như sắp hắt xì hơi."
+     },
+     {
+      "parts": [
+       "<ruby>明日<rt>あした</rt></ruby>から<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>くので、<ruby>私<rt>わたし</rt></ruby>は<ruby>今<rt>いま</rt></ruby>から",
+       "している。"
+      ],
+      "answer": "C",
+      "vi": "Mai được đi du lịch rồi nên trong lòng rất háo hức."
+     },
+     {
+      "parts": [
+       "<ruby>道<rt>みち</rt></ruby>で<ruby>転<rt>ころ</rt></ruby>んで、<ruby>足<rt>あし</rt></ruby>が",
+       "する。<ruby>薬<rt>くすり</rt></ruby>をつけよう。"
+      ],
+      "answer": "J",
+      "vi": "Bị ngã trên đường nên vết thương ở chân rát buốt."
+     },
+     {
+      "parts": [
+       "Nganさんはいつも",
+       "していて、<ruby>優<rt>やさ</rt></ruby>しそうだ。"
+      ],
+      "answer": "E",
+      "vi": "Bạn Ngân lúc nào cũng tươi cười rạng rỡ, hiền từ."
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Hình minh họa">
+  <defs>
+    <radialGradient id="ck2-bg" cx=".5" cy=".4" r=".85"><stop offset="0" stop-color="#FFFBF2"></stop><stop offset="1" stop-color="#E8D3AE"></stop></radialGradient>
+    <linearGradient id="ck2-pan" x1="0" x2="1"><stop offset="0" stop-color="#1f2328"></stop><stop offset=".3" stop-color="#4a5058"></stop><stop offset=".6" stop-color="#2a2f35"></stop><stop offset="1" stop-color="#14171a"></stop></linearGradient>
+    <radialGradient id="ck2-inner" cx=".5" cy=".35" r=".8"><stop offset="0" stop-color="#6b7078"></stop><stop offset="1" stop-color="#25292e"></stop></radialGradient>
+    <linearGradient id="ck2-flame" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#2563eb"></stop><stop offset=".25" stop-color="#f97316"></stop><stop offset="1" stop-color="#fde047"></stop></linearGradient>
+    <linearGradient id="ck2-wood" x1="0" x2="1"><stop offset="0" stop-color="#7c4a1d"></stop><stop offset=".5" stop-color="#c58a4c"></stop><stop offset="1" stop-color="#7c4a1d"></stop></linearGradient>
+    <radialGradient id="ck2-carrot" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#ffb45e"></stop><stop offset="1" stop-color="#e2610c"></stop></radialGradient>
+    <radialGradient id="ck2-leaf" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#9be86a"></stop><stop offset="1" stop-color="#2d8a2a"></stop></radialGradient>
+    <radialGradient id="ck2-meat" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#f0b79a"></stop><stop offset="1" stop-color="#a65a3c"></stop></radialGradient>
+    <filter id="ck2-blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4"></feGaussianBlur></filter>
+    <filter id="ck2-sh" x="-20%" y="-20%" width="140%" height="150%"><fedropshadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity=".5"></fedropshadow></filter>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#ck2-bg)"></rect>
+  <!-- flame glow + flames -->
+  <ellipse cx="200" cy="268" rx="150" ry="22" fill="#f97316" opacity=".5" filter="url(#ck2-blur)"></ellipse>
+  <g fill="url(#ck2-flame)">
+    <path d="M105 278 Q96 248 114 226 Q119 246 132 252 Q132 236 142 226 Q158 252 148 278 Z"></path>
+    <path d="M175 278 Q166 242 186 218 Q191 244 205 250 Q205 232 215 220 Q232 252 221 278 Z"></path>
+    <path d="M250 278 Q241 248 259 228 Q264 246 277 252 Q277 238 287 228 Q301 254 291 278 Z"></path>
+  </g>
+  <!-- pan -->
+  <g filter="url(#ck2-sh)">
+    <rect x="320" y="150" width="76" height="16" rx="8" fill="url(#ck2-pan)" transform="rotate(-8 320 158)"></rect>
+    <path d="M55 150 Q60 218 200 218 Q340 218 345 150 Z" fill="url(#ck2-pan)"></path>
+    <ellipse cx="200" cy="150" rx="145" ry="40" fill="#5b6169"></ellipse>
+    <ellipse cx="200" cy="153" rx="132" ry="32" fill="url(#ck2-inner)"></ellipse>
+  </g>
+  <path d="M75 150 Q200 120 325 150" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="3"></path>
+  <ellipse cx="200" cy="157" rx="110" ry="20" fill="#d9a441" opacity=".18"></ellipse>
+  <!-- vegetables -->
+  <g stroke-linecap="round" fill="none">
+    <path d="M108 152 q20 -12 36 2" stroke="#f4f1e4" stroke-width="6"></path><path d="M108 152 q-2 -1 -4 1" stroke="#e6d878" stroke-width="6"></path>
+    <path d="M150 164 q25 -12 40 0" stroke="#f4f1e4" stroke-width="6"></path>
+    <path d="M230 146 q20 -12 38 0" stroke="#f4f1e4" stroke-width="6"></path>
+    <path d="M250 168 q20 -10 35 -2" stroke="#f4f1e4" stroke-width="6"></path>
+    <path d="M190 170 q12 8 28 2" stroke="#f4f1e4" stroke-width="5"></path>
+  </g>
+  <rect x="148" y="126" width="28" height="13" rx="5" fill="url(#ck2-carrot)" transform="rotate(-20 162 132)"></rect>
+  <rect x="214" y="160" width="28" height="13" rx="5" fill="url(#ck2-carrot)" transform="rotate(15 228 166)"></rect>
+  <rect x="270" y="136" width="26" height="13" rx="5" fill="url(#ck2-carrot)" transform="rotate(25 282 142)"></rect>
+  <ellipse cx="124" cy="140" rx="22" ry="10" fill="url(#ck2-leaf)" transform="rotate(-15 124 140)"></ellipse>
+  <ellipse cx="196" cy="140" rx="24" ry="11" fill="url(#ck2-leaf)" transform="rotate(12 196 140)"></ellipse>
+  <ellipse cx="174" cy="168" rx="19" ry="9" fill="url(#ck2-leaf)"></ellipse>
+  <ellipse cx="240" cy="140" rx="15" ry="9" fill="url(#ck2-meat)"></ellipse>
+  <ellipse cx="150" cy="166" rx="15" ry="9" fill="url(#ck2-meat)"></ellipse>
+  <ellipse cx="288" cy="160" rx="13" ry="8" fill="url(#ck2-meat)"></ellipse>
+  <g stroke="#fff" stroke-opacity=".45" stroke-width="1.5" stroke-linecap="round">
+    <path d="M118 136 q8 -3 14 0"></path><path d="M188 136 q10 -3 16 1"></path><path d="M168 165 q6 -2 12 0"></path>
+  </g>
+  <!-- spatula -->
+  <g transform="rotate(-35 250 110)" filter="url(#ck2-sh)">
+    <rect x="236" y="28" width="16" height="72" rx="7" fill="url(#ck2-wood)"></rect>
+    <rect x="223" y="94" width="42" height="46" rx="5" fill="url(#ck2-wood)"></rect>
+  </g>
+  <!-- steam -->
+  <g fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="6" stroke-linecap="round" filter="url(#ck2-blur)">
+    <path d="M100 110 q-10 -14 0 -26 q10 -12 0 -24"></path><path d="M310 108 q-10 -14 0 -26 q10 -12 0 -24"></path>
+  </g>
+</svg>

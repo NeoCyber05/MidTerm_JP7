@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Hình minh họa">
+  <defs>
+    <radialGradient id="ck5-bg" cx=".5" cy=".4" r=".85"><stop offset="0" stop-color="#FFFBF2"></stop><stop offset="1" stop-color="#E8D3AE"></stop></radialGradient>
+    <linearGradient id="ck5-bamboo" x1="0" x2="1"><stop offset="0" stop-color="#a8692c"></stop><stop offset=".3" stop-color="#e2b074"></stop><stop offset=".65" stop-color="#c58a4c"></stop><stop offset="1" stop-color="#8a5220"></stop></linearGradient>
+    <linearGradient id="ck5-steelH" x1="0" x2="1"><stop offset="0" stop-color="#6b727c"></stop><stop offset=".25" stop-color="#e3e6ea"></stop><stop offset=".6" stop-color="#9aa1ab"></stop><stop offset="1" stop-color="#555c66"></stop></linearGradient>
+    <radialGradient id="ck5-mat" cx=".5" cy=".4" r=".7"><stop offset="0" stop-color="#fbf0d8"></stop><stop offset="1" stop-color="#e2c994"></stop></radialGradient>
+    <radialGradient id="ck5-bun" cx=".4" cy=".3" r=".85"><stop offset="0" stop-color="#ffffff"></stop><stop offset=".7" stop-color="#f6efe2"></stop><stop offset="1" stop-color="#d9ccb2"></stop></radialGradient>
+    <filter id="ck5-blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4"></feGaussianBlur></filter>
+    <filter id="ck5-sh" x="-20%" y="-20%" width="140%" height="150%"><fedropshadow dx="0" dy="3" stdDeviation="3" flood-color="#3a2400" flood-opacity=".4"></fedropshadow></filter>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#ck5-bg)"></rect>
+  <ellipse cx="200" cy="272" rx="160" ry="12" fill="#3a2a10" opacity=".35" filter="url(#ck5-blur)"></ellipse>
+  <!-- steam -->
+  <g fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="8" stroke-linecap="round" filter="url(#ck5-blur)">
+    <path d="M130 62 q-14 -16 0 -28 q14 -14 0 -28"></path><path d="M200 56 q-14 -16 0 -28 q14 -14 0 -28"></path><path d="M270 62 q-14 -16 0 -28 q14 -14 0 -28"></path>
+  </g>
+  <!-- base pot -->
+  <path d="M70 228 H330 V256 Q330 270 316 270 H84 Q70 270 70 256 Z" fill="url(#ck5-steelH)"></path>
+  <!-- basket sides -->
+  <g filter="url(#ck5-sh)">
+    <path d="M62 160 V222 Q62 236 76 236 H324 Q338 236 338 222 V160 Z" fill="url(#ck5-bamboo)"></path>
+  </g>
+  <g stroke="#7a4a1c" stroke-width="3" opacity=".7">
+    <line x1="62" y1="182" x2="338" y2="182"></line><line x1="62" y1="208" x2="338" y2="208"></line>
+  </g>
+  <g stroke="#f3d7a8" stroke-width="1.5" opacity=".5">
+    <line x1="62" y1="171" x2="338" y2="171"></line><line x1="62" y1="195" x2="338" y2="195"></line><line x1="62" y1="221" x2="338" y2="221"></line>
+  </g>
+  <!-- basket top -->
+  <ellipse cx="200" cy="160" rx="138" ry="48" fill="url(#ck5-bamboo)"></ellipse>
+  <ellipse cx="200" cy="162" rx="124" ry="38" fill="#9c6226"></ellipse>
+  <ellipse cx="200" cy="164" rx="122" ry="36" fill="url(#ck5-mat)"></ellipse>
+  <!-- buns -->
+  <g filter="url(#ck5-sh)" fill="url(#ck5-bun)">
+    <ellipse cx="124" cy="152" rx="35" ry="29"></ellipse><ellipse cx="276" cy="152" rx="35" ry="29"></ellipse>
+    <ellipse cx="160" cy="176" rx="35" ry="27"></ellipse><ellipse cx="240" cy="176" rx="35" ry="27"></ellipse>
+    <ellipse cx="200" cy="142" rx="39" ry="32"></ellipse>
+  </g>
+  <g stroke="#cdbd9f" stroke-width="1.6" stroke-linecap="round" fill="none">
+    <g transform="translate(200 142)"><path d="M0 -6 L0 -24 M0 -6 L-16 -18 M0 -6 L16 -18 M0 -6 L-22 -6 M0 -6 L22 -6 M0 -6 L-14 8 M0 -6 L14 8"></path></g>
+    <g transform="translate(124 152)"><path d="M0 -4 L0 -22 M0 -4 L-15 -16 M0 -4 L15 -16 M0 -4 L-20 -4 M0 -4 L20 -4 M0 -4 L-13 8 M0 -4 L13 8"></path></g>
+    <g transform="translate(276 152)"><path d="M0 -4 L0 -22 M0 -4 L-15 -16 M0 -4 L15 -16 M0 -4 L-20 -4 M0 -4 L20 -4 M0 -4 L-13 8 M0 -4 L13 8"></path></g>
+    <g transform="translate(160 176)"><path d="M0 -3 L0 -20 M0 -3 L-14 -14 M0 -3 L14 -14 M0 -3 L-19 -3 M0 -3 L19 -3 M0 -3 L-12 8 M0 -3 L12 8"></path></g>
+    <g transform="translate(240 176)"><path d="M0 -3 L0 -20 M0 -3 L-14 -14 M0 -3 L14 -14 M0 -3 L-19 -3 M0 -3 L19 -3 M0 -3 L-12 8 M0 -3 L12 8"></path></g>
+  </g>
+  <g fill="#fff" opacity=".6"><ellipse cx="184" cy="128" rx="14" ry="5"></ellipse><ellipse cx="108" cy="140" rx="11" ry="4"></ellipse><ellipse cx="260" cy="140" rx="11" ry="4"></ellipse></g>
+</svg>

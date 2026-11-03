@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Hình minh họa">
+  <defs>
+    <radialGradient id="ck6-bg" cx=".5" cy=".4" r=".85"><stop offset="0" stop-color="#FFFBF2"></stop><stop offset="1" stop-color="#E8D3AE"></stop></radialGradient>
+    <linearGradient id="ck6-steelH" x1="0" x2="1"><stop offset="0" stop-color="#6b727c"></stop><stop offset=".22" stop-color="#e9ecf0"></stop><stop offset=".55" stop-color="#9aa1ab"></stop><stop offset="1" stop-color="#555c66"></stop></linearGradient>
+    <linearGradient id="ck6-rim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f6f8"></stop><stop offset="1" stop-color="#8d949e"></stop></linearGradient>
+    <radialGradient id="ck6-broth" cx=".5" cy=".4" r=".75"><stop offset="0" stop-color="#f6df8a"></stop><stop offset=".7" stop-color="#dcb450"></stop><stop offset="1" stop-color="#a97f1e"></stop></radialGradient>
+    <radialGradient id="ck6-meat" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#fff0dc"></stop><stop offset="1" stop-color="#d7a97c"></stop></radialGradient>
+    <radialGradient id="ck6-carrot" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#ffb45e"></stop><stop offset="1" stop-color="#e2610c"></stop></radialGradient>
+    <radialGradient id="ck6-bub" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#fff" stop-opacity=".9"></stop><stop offset=".6" stop-color="#fff" stop-opacity=".15"></stop><stop offset="1" stop-color="#fff" stop-opacity=".6"></stop></radialGradient>
+    <filter id="ck6-blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4"></feGaussianBlur></filter>
+    <filter id="ck6-sh" x="-20%" y="-20%" width="140%" height="150%"><fedropshadow dx="0" dy="2" stdDeviation="2" flood-color="#3a2400" flood-opacity=".45"></fedropshadow></filter>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#ck6-bg)"></rect>
+  <ellipse cx="200" cy="270" rx="160" ry="13" fill="#3a2a10" opacity=".35" filter="url(#ck6-blur)"></ellipse>
+  <g fill="none" stroke="#fff" stroke-opacity=".85" stroke-width="7" stroke-linecap="round" filter="url(#ck6-blur)">
+    <path d="M150 80 q-14 -16 0 -28 q14 -14 0 -28"></path><path d="M210 72 q-14 -16 0 -28 q14 -14 0 -28"></path><path d="M270 80 q-14 -16 0 -28 q14 -14 0 -28"></path>
+  </g>
+  <!-- pot -->
+  <path d="M75 140 V246 Q75 266 95 266 H305 Q325 266 325 246 V140 Z" fill="url(#ck6-steelH)"></path>
+  <rect x="40" y="164" width="40" height="15" rx="7" fill="url(#ck6-steelH)"></rect>
+  <rect x="320" y="164" width="40" height="15" rx="7" fill="url(#ck6-steelH)"></rect>
+  <ellipse cx="200" cy="140" rx="126" ry="35" fill="url(#ck6-rim)"></ellipse>
+  <ellipse cx="200" cy="143" rx="114" ry="28" fill="url(#ck6-broth)"></ellipse>
+  <ellipse cx="160" cy="136" rx="60" ry="7" fill="#fff" opacity=".3"></ellipse>
+  <!-- ingredients -->
+  <g filter="url(#ck6-sh)">
+    <ellipse cx="160" cy="141" rx="33" ry="14" fill="url(#ck6-meat)"></ellipse>
+    <circle cx="146" cy="139" r="7" fill="#fff"></circle><circle cx="146" cy="139" r="3" fill="#efe6d4"></circle>
+    <ellipse cx="242" cy="138" rx="29" ry="12" fill="url(#ck6-meat)"></ellipse>
+    <ellipse cx="108" cy="148" rx="11" ry="6" fill="url(#ck6-carrot)"></ellipse>
+    <ellipse cx="272" cy="147" rx="11" ry="6" fill="url(#ck6-carrot)"></ellipse>
+    <ellipse cx="200" cy="152" rx="11" ry="6" fill="url(#ck6-carrot)"></ellipse>
+  </g>
+  <g fill="#3fa84a"><ellipse cx="120" cy="132" rx="8" ry="3.5"></ellipse><ellipse cx="205" cy="131" rx="8" ry="3.5"></ellipse><ellipse cx="288" cy="133" rx="8" ry="3.5"></ellipse><ellipse cx="180" cy="150" rx="6" ry="2.5"></ellipse></g>
+  <g fill="#fff4c2" opacity=".8"><circle cx="128" cy="154" r="2"></circle><circle cx="232" cy="152" r="2"></circle><circle cx="260" cy="132" r="2"></circle></g>
+  <g fill="url(#ck6-bub)" stroke="#fff" stroke-opacity=".6">
+    <circle cx="182" cy="154" r="4.5"></circle><circle cx="222" cy="154" r="3.5"></circle><circle cx="132" cy="154" r="3.5"></circle><circle cx="296" cy="143" r="5"></circle><circle cx="90" cy="140" r="3"></circle>
+  </g>
+</svg>

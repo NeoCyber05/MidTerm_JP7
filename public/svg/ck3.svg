@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Hình minh họa">
+  <defs>
+    <radialGradient id="ck3-bg" cx=".5" cy=".4" r=".85"><stop offset="0" stop-color="#FFFBF2"></stop><stop offset="1" stop-color="#E8D3AE"></stop></radialGradient>
+    <linearGradient id="ck3-red" x1="0" x2="1"><stop offset="0" stop-color="#8e1a1a"></stop><stop offset=".25" stop-color="#ef4b3f"></stop><stop offset=".55" stop-color="#c52a26"></stop><stop offset="1" stop-color="#7d1515"></stop></linearGradient>
+    <linearGradient id="ck3-rim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"></stop><stop offset="1" stop-color="#cfd5db"></stop></linearGradient>
+    <radialGradient id="ck3-water" cx=".5" cy=".4" r=".75"><stop offset="0" stop-color="#cdeefc"></stop><stop offset=".7" stop-color="#7cc7ea"></stop><stop offset="1" stop-color="#3f8fb8"></stop></radialGradient>
+    <linearGradient id="ck3-leafG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7fd653"></stop><stop offset="1" stop-color="#1f7a2a"></stop></linearGradient>
+    <radialGradient id="ck3-bub" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#fff" stop-opacity=".9"></stop><stop offset=".6" stop-color="#fff" stop-opacity=".15"></stop><stop offset="1" stop-color="#fff" stop-opacity=".6"></stop></radialGradient>
+    <filter id="ck3-blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4"></feGaussianBlur></filter>
+    <filter id="ck3-sh" x="-20%" y="-20%" width="140%" height="150%"><fedropshadow dx="0" dy="3" stdDeviation="3" flood-color="#2a1000" flood-opacity=".4"></fedropshadow></filter>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#ck3-bg)"></rect>
+  <ellipse cx="200" cy="270" rx="150" ry="13" fill="#3a2a10" opacity=".35" filter="url(#ck3-blur)"></ellipse>
+  <!-- steam -->
+  <g fill="none" stroke="#fff" stroke-opacity=".85" stroke-width="7" stroke-linecap="round" filter="url(#ck3-blur)">
+    <path d="M140 84 q-14 -16 0 -30 q14 -14 0 -30"></path><path d="M200 72 q-14 -16 0 -30 q14 -14 0 -30"></path><path d="M262 84 q-14 -16 0 -30 q14 -14 0 -30"></path>
+  </g>
+  <!-- pot -->
+  <path d="M85 140 V248 Q85 266 103 266 H297 Q315 266 315 248 V140 Z" fill="url(#ck3-red)"></path>
+  <rect x="52" y="164" width="38" height="15" rx="7" fill="#7d1515"></rect>
+  <rect x="310" y="164" width="38" height="15" rx="7" fill="#7d1515"></rect>
+  <path d="M105 170 V250" stroke="#fff" stroke-opacity=".3" stroke-width="6" stroke-linecap="round"></path>
+  <ellipse cx="200" cy="140" rx="116" ry="31" fill="url(#ck3-rim)"></ellipse>
+  <ellipse cx="200" cy="142" rx="106" ry="25" fill="url(#ck3-water)"></ellipse>
+  <ellipse cx="200" cy="146" rx="80" ry="12" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="2"></ellipse>
+  <!-- spinach -->
+  <g filter="url(#ck3-sh)">
+    <g fill="url(#ck3-leafG)">
+      <ellipse cx="150" cy="138" rx="36" ry="12" transform="rotate(-20 150 138)"></ellipse>
+      <ellipse cx="216" cy="134" rx="40" ry="12" transform="rotate(15 216 134)"></ellipse>
+      <ellipse cx="186" cy="146" rx="38" ry="11" transform="rotate(-5 186 146)"></ellipse>
+    </g>
+    <g fill="#9be86a"><ellipse cx="242" cy="146" rx="28" ry="9" transform="rotate(-18 242 146)"></ellipse><ellipse cx="134" cy="151" rx="26" ry="9" transform="rotate(10 134 151)"></ellipse></g>
+  </g>
+  <g stroke="#e9ffd0" stroke-opacity=".6" stroke-width="1.5" stroke-linecap="round">
+    <line x1="124" y1="146" x2="176" y2="130"></line><line x1="180" y1="140" x2="254" y2="128"></line><line x1="150" y1="148" x2="222" y2="146"></line>
+  </g>
+  <g fill="url(#ck3-bub)" stroke="#fff" stroke-opacity=".6">
+    <circle cx="112" cy="140" r="6"></circle><circle cx="278" cy="138" r="7"></circle><circle cx="258" cy="152" r="3.5"></circle><circle cx="162" cy="153" r="3.5"></circle>
+  </g>
+  <!-- chopsticks -->
+  <g stroke-linecap="round" filter="url(#ck3-sh)">
+    <line x1="302" y1="28" x2="203" y2="132" stroke="#8a5420" stroke-width="7"></line>
+    <line x1="302" y1="28" x2="203" y2="132" stroke="#d9a465" stroke-width="3" transform="translate(-1 0)"></line>
+    <line x1="324" y1="42" x2="222" y2="140" stroke="#8a5420" stroke-width="7"></line>
+    <line x1="324" y1="42" x2="222" y2="140" stroke="#d9a465" stroke-width="3" transform="translate(-1 0)"></line>
+  </g>
+</svg>
