@@ -15,7 +15,7 @@ const Picture = ({ data }) => (
         <figcaption>
           <div className="pic-title"><b>{i + 1}.</b> <span className="vi">{d.vi}</span></div>
           <Rich html={d.sentence} className="jp sentence" />
-          <small className="muted jp">{d.hint}</small>
+          <Ans><small className="muted jp">{d.hint}</small></Ans>
         </figcaption>
       </figure>
     ))}
