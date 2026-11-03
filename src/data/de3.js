@@ -1,0 +1,153 @@
+// Đề ôn 3 — 8 dạng: 6 dạng theo format đề gốc + Đọc hiểu + Nghe & điền.
+import { deep, plain } from './fmt.js'
+
+const pic = (n, vi, viShort, sentence, hint) => ({ img: `svg/ck${n}.svg`, vi, viShort, sentence, hint })
+const listen = (items) => items.map((it) => ({ ...it, say: plain(it.parts[0]) + it.answers[0] + plain(it.parts[1]) }))
+
+export default deep({
+  id: 'de3',
+  title: '模擬試験 3：中間テスト対策',
+  exams: [
+    {
+      id: 1, kind: 'picture', title: '問題 1：絵を見て、適切な形で動詞を書いてください。',
+      data: [
+        pic(4, 'Nướng thịt', 'Nướng vỉ, than hồng', '{肉|にく}を [[{焼|や}く]] のに、フライパンより{網|あみ}のほうが{便利|べんり}です。', 'Động từ: 焼く (V-る + のに)'),
+        pic(12, 'Nấu cơm', 'Thổi cơm', 'ご{飯|はん}を [[{炊|た}く]] のに、３０{分|ぷん}ぐらいかかります。', 'Động từ: 炊く (V-る + のに)'),
+        pic(7, 'Cắt rau', 'Cắt, thái', '{野菜|やさい}を [[{切|き}る]] ときは、けがをしないように{気|き}をつけてください。', 'Động từ: 切る (V-る + とき)'),
+        pic(1, 'Chiên tôm', 'Rán ngập dầu', 'エビを [[{揚|あ}げる]] のに、たくさんの{油|あぶら}を{使|つか}います。', 'Động từ: 揚げる (V-る + のに)'),
+        pic(9, 'Gọt vỏ táo', 'Lột/gọt vỏ', '{母|はは}はりんごの{皮|かわ}を [[{剥|む}く]] のが{上手|じょうず}です。', 'Động từ: 剥く (V-る + のが上手)'),
+        pic(5, 'Hấp bánh bao', 'Hấp bằng hơi nước', '{肉|にく}まんを [[{蒸|む}す]] のに、{蒸|む}し{器|き}を{使|つか}います。', 'Động từ: 蒸す (V-る + のに)'),
+        pic(10, 'Đánh trứng', 'Khuấy đều', '{卵|たまご}をよく [[{混|ま}ぜて]] から、フライパンに{入|い}れます。', 'Động từ: 混ぜる (V-て + から)'),
+        pic(2, 'Xào rau', 'Xào qua chảo', '{野菜|やさい}は{強火|つよび}でさっと [[{炒|いた}める]] のがポイントです。', 'Động từ: 炒める (V-る + のが)'),
+        pic(3, 'Luộc rau', 'Luộc trong nước sôi', '{野菜|やさい}を [[{茹|ゆ}でる]] ときは、{塩|しお}を{少|すこ}し{入|い}れます。', 'Động từ: 茹でる (V-る + とき)'),
+        pic(11, 'Thêm dầu ăn', 'Cho thêm vào', 'フライパンが{焦|こ}げないように、{油|あぶら}を{少|すこ}し [[{加|くわ}えます]]。', 'Động từ: 加える (～ように + V-ます)'),
+        pic(8, 'Băm hành lá', 'Thái nhỏ, băm mịn', '{青|あお}ネギを{細|こま}かく [[{刻|きざ}んで]] 、スープに{入|い}れます。', 'Động từ: 刻む (V-て nối câu)'),
+        pic(6, 'Hầm thịt', 'Kho, hầm nhỏ lửa', '{肉|にく}は{弱火|よわび}で１{時間|じかん}ぐらい [[{煮|に}る]] と、{柔|やわ}らかくなります。', 'Động từ: 煮る (V-る + と)'),
+      ],
+    },
+    {
+      id: 2, kind: 'reading', title: '問題 2：漢字の読み方を書いてください。',
+      data: [
+        { kanji: '診断', meaning: 'chẩn đoán', reading: 'しんだん' },
+        { kanji: '微熱', meaning: 'sốt nhẹ', reading: 'びねつ' },
+        { kanji: '包丁', meaning: 'dao làm bếp', reading: 'ほうちょう' },
+        { kanji: '耳鼻科', meaning: 'khoa tai mũi họng', reading: 'じびか' },
+        { kanji: '整形外科', meaning: 'khoa chấn thương chỉnh hình', reading: 'せいけいげか' },
+        { kanji: '目薬', meaning: 'thuốc nhỏ mắt', reading: 'めぐすり' },
+        { kanji: '炒める', meaning: 'xào', reading: 'いためる' },
+        { kanji: '刻む', meaning: 'thái nhỏ, băm', reading: 'きざむ' },
+        { kanji: '励ます', meaning: 'động viên', reading: 'はげます' },
+        { kanji: '謝る', meaning: 'xin lỗi', reading: 'あやまる' },
+        { kanji: '紛失届', meaning: 'đơn khai báo mất đồ', reading: 'ふんしつとどけ' },
+        { kanji: '身分証明書', meaning: 'giấy tờ tùy thân', reading: 'みぶんしょうめいしょ' },
+      ],
+    },
+    {
+      id: 3, kind: 'conjugate', title: '問題 3：（ ）の言葉を適切な形に書いてください。',
+      data: [
+        { text: '{試合|しあい}に（負ける）→ [[{負|ま}けた]] のは、{練習|れんしゅう}が{足|た}りなかったからだ。', explain: '💡 <strong>Nhấn mạnh kết quả:</strong> <code>V-た + のは、～からだ</code> (Sở dĩ thua là vì luyện tập chưa đủ).' },
+        { text: '{忘|わす}れ{物|もの}を（する）→ [[しない]] ように、{前|まえ}の{日|ひ}に{準備|じゅんび}しておきましょう。', explain: '💡 <strong>Mục đích:</strong> <code>V-ない + ように</code> (Để không quên đồ, hãy chuẩn bị từ hôm trước).' },
+        { text: '{後|うし}ろの{人|ひと}にもよく（聞こえる）→ [[{聞|き}こえる]] ように、{大|おお}きい{声|こえ}で{話|はな}してください。', explain: '💡 <code>V-る (tự động từ) + ように</code>.' },
+        { text: 'このお{祭|まつ}りは、{千年|せんねん}{以上前|いじょうまえ}に（始まる）→ [[{始|はじ}まった]] と{言|い}われています。', explain: '💡 <strong>Truyền thuyết / nhận định chung:</strong> <code>V-た + と言われている</code>.' },
+        { text: 'わざと（壊す）→ [[{壊|こわ}した]] んじゃないんだから、{気|き}にすることないよ。', explain: '💡 <strong>An ủi:</strong> <code>わざと + V-た + んじゃないんだから</code> (Bài 5).' },
+        { text: '{先生|せんせい}、{用事|ようじ}があるので、{発表|はっぴょう}の{日|ひ}にちを（変える）→ [[{変|か}えさせて]] いただけませんか。', explain: '💡 <strong>Xin phép:</strong> 変える → 使役 変えさせる → <code>変えさせていただけませんか</code> (Bài 12).' },
+        { text: '{明日|あした}テストだから、{今日|きょう}の{練習|れんしゅう}を（休む）→ [[{休|やす}んで]] もいいかなあ。', explain: '💡 <strong>Xin phép bạn bè:</strong> <code>理由から + V-て + もいいかなあ</code> (Bài 12).' },
+        { text: '{電車|でんしゃ}が（遅れる）→ [[{遅|おく}れた]] ものですから、{遅刻|ちこく}してしまいました。', explain: '💡 <strong>Lý do khách quan:</strong> <code>V-た + ものですから</code> (Bài 4).' },
+        { text: 'お{忙|いそが}しいところ{申|もう}し{訳|わけ}ありませんが、{推薦状|すいせんじょう}を（書く）→ [[{書|か}いて]] いただけないでしょうか。', explain: '💡 <strong>Rào đón + nhờ:</strong> <code>お忙しいところ申し訳ありませんが、V-て + いただけないでしょうか</code> (Bài 13).' },
+      ],
+    },
+    {
+      id: 4, kind: 'choice', title: '問題 4：正しいものを選びなさい。',
+      data: [
+        { q: '{京都|きょうと}は{日本|にほん}の{古|ふる}い{都|みやこ}（　）{有名|ゆうめい}です。', options: ['によって', 'として', 'に関係なく'], answer: 1, explain: '💡 <strong>N + として:</strong> Với tư cách là cố đô.' },
+        { q: '{同|おな}じ{料理|りょうり}でも、{作|つく}る{人|ひと}（　）{味|あじ}が{違|ちが}う。', options: ['によって', 'として', 'という点で'], answer: 0, explain: '💡 <strong>N + によって + 違う:</strong> Tùy người nấu mà vị khác nhau.' },
+        { q: '{力|ちから}が{出|で}ない（　）、{朝|あさ}ご{飯|はん}を{食|た}べなかったからだ。', options: ['のに', 'ので', 'のは'], answer: 2, explain: '💡 <strong>～のは、～からだ:</strong> Sở dĩ… là vì….' },
+        { q: '{風邪|かぜ}をひかない（　）、{毎日|まいにち}{手|て}を{洗|あら}っています。', options: ['ように', 'のに', 'として'], answer: 0, explain: '💡 <strong>V-ない + ように:</strong> Để không bị cảm.' },
+        { q: 'この{店|みせ}は、{値段|ねだん}が{安|やす}い（　）、ほかの{店|みせ}よりいいと{思|おも}う。', options: ['によって', 'という点で', 'として'], answer: 1, explain: '💡 <strong>～という点で:</strong> Xét về mặt giá rẻ.' },
+        { q: '{昔|むかし}から、{緑茶|りょくちゃ}は{体|からだ}にいい（　）。', options: ['ことになっている', 'と言っている', 'と言われている'], answer: 2, explain: '💡 <strong>～と言われている:</strong> Người ta cho rằng (nhận định chung, không chỉ đích danh ai).' },
+        { q: 'ストレスで{胃|い}が（　）{痛|いた}む。', options: ['キリキリ', 'ヒリヒリ', 'ゾクゾク'], answer: 0, explain: '💡 <strong>キリキリ痛む:</strong> Đau nhói, đau thắt (dạ dày).' },
+        { q: '{寒気|さむけ}がして、{体|からだ}が（　）する。', options: ['ガンガン', 'ゾクゾク', 'ズキズキ'], answer: 1, explain: '💡 <strong>ゾクゾクする:</strong> Rét run, ớn lạnh.' },
+        { q: 'やけどをしたところが（　）する。', options: ['ムカムカ', 'コンコン', 'ヒリヒリ'], answer: 2, explain: '💡 <strong>ヒリヒリする:</strong> Rát buốt (vết bỏng, vết xước).' },
+        { q: 'ずっと{欲|ほ}しかったカメラを、やっと（　）。', options: ['手に入れた', '受け入れた', '生み出した'], answer: 0, explain: '💡 <strong>手に入れる:</strong> Có được trong tay.' },
+        { q: '{先生|せんせい}、{体調|たいちょう}が{悪|わる}いので、{今日|きょう}は{早|はや}く{帰|かえ}らせて（　）。', options: ['くれない？', 'いただけませんか', 'もらえる？'], answer: 1, explain: '💡 Với thầy cô dùng <code>～（さ）せていただけませんか</code>.' },
+        { q: 'A：{試験|しけん}に{落|お}ちちゃった。　B：そうなんだ。でも、（　）よ。{次|つぎ}{頑張|がんば}ろう。', options: ['気にすることない', '大変言いにくい', 'お手数をおかけします'], answer: 0, explain: '💡 An ủi bạn: <code>気にすることないよ</code> (Bài 5).' },
+      ],
+    },
+    {
+      id: 5, kind: 'scenario', title: '問題 5：下の場面では、何と言いますか。',
+      data: [
+        { example: true, q: 'これからクラスのみんなでカラオケに{行|い}きます。{先生|せんせい}も{誘|さそ}いたいです。{何|なん}と{言|い}いますか。<div class="vi">(Cả lớp sắp đi karaoke, bạn muốn mời thầy/cô. Bạn nói gì?)</div>', answer: '{先生|せんせい}、これからみんなでカラオケに{行|い}くんですが、よろしかったら、ご{一緒|いっしょ}にいかがですか。', explain: '' },
+        { example: false, q: '{風邪|かぜ}をひいて{調子|ちょうし}が{悪|わる}かったので、レポートが{終|お}わりませんでした。{来週|らいしゅう}{出|だ}したいです。{先生|せんせい}に{何|なん}と{言|い}いますか。<div class="vi">(Bị cảm nên chưa xong báo cáo, muốn xin nộp tuần sau. Bạn nói gì với thầy/cô?)</div>', answer: '{先生|せんせい}、{風邪|かぜ}をひいて{調子|ちょうし}が{悪|わる}かったので、レポートを{来週|らいしゅう}{出|だ}させていただけませんか。', explain: '💡 Lý do <code>～て、～ので</code> + xin phép <code>～（さ）せていただけませんか</code> (Bài 12).' },
+        { example: false, q: '{友達|ともだち}が{先輩|せんぱい}に{借|か}りた{本|ほん}に{傷|きず}を{付|つ}けてしまって、{落|お}ち{込|こ}んでいます。{何|なん}と{言|い}って{励|はげ}ましますか。<div class="vi">(Bạn lỡ làm trầy sách mượn của tiền bối và đang buồn. Bạn động viên thế nào?)</div>', answer: 'わざと{傷|きず}を{付|つ}けたんじゃないんだから、{大丈夫|だいじょうぶ}だよ。ちゃんと{謝|あやま}れば{分|わ}かってくれるよ。', explain: '💡 <code>わざと～たんじゃないんだから</code> + <code>～ば分かってくれるよ</code> (Bài 5).' },
+        { example: false, q: '{忙|いそが}しそうな{先生|せんせい}に、{奨学金|しょうがくきん}のための{推薦状|すいせんじょう}を{書|か}いてほしいです。{何|なん}と{言|い}いますか。<div class="vi">(Thầy/cô đang bận, bạn muốn nhờ viết thư giới thiệu xin học bổng. Bạn nói gì?)</div>', answer: 'お{忙|いそが}しいところ{申|もう}し{訳|わけ}ありませんが、{奨学金|しょうがくきん}の{推薦状|すいせんじょう}を{書|か}いていただけないでしょうか。', explain: '💡 Lời rào đón <code>お忙しいところ申し訳ありませんが</code> + <code>～ていただけないでしょうか</code> (Bài 13).' },
+        { example: false, q: '{友達|ともだち}に{週末|しゅうまつ}の{料理|りょうり}パーティーに{誘|さそ}われましたが、アルバイトがあります。{何|なん}と{言|い}って{断|ことわ}りますか。<div class="vi">(Bạn rủ đi tiệc nấu ăn cuối tuần nhưng bạn có ca làm thêm. Bạn từ chối thế nào?)</div>', answer: 'ごめん、その{日|ひ}はアルバイトがあるんだ。また{誘|さそ}ってね。', explain: '💡 Với bạn bè: <code>ごめん</code> + lý do <code>～んだ</code> + <code>また誘ってね</code> (Bài 4).' },
+      ],
+    },
+    {
+      id: 6, kind: 'fill', title: '問題 6：□の中から一番いいものを選んで下さい。1度しか使えません。',
+      data: {
+        bank: [
+          { key: 'A', text: '気晴らし', vi: 'Giải khuây' },
+          { key: 'B', text: 'くよくよ', vi: 'Buồn phiền mãi' },
+          { key: 'C', text: 'わざと', vi: 'Cố ý' },
+          { key: 'D', text: '前置き', vi: 'Lời rào đón' },
+          { key: 'E', text: '倉庫', vi: 'Nhà kho' },
+          { key: 'F', text: '電子辞書', vi: 'Từ điển điện tử' },
+          { key: 'G', text: '身分証明書', vi: 'Giấy tờ tùy thân' },
+          { key: 'H', text: '紛失届', vi: 'Đơn báo mất' },
+          { key: 'I', text: '防犯登録', vi: 'Đăng ký chống trộm xe' },
+          { key: 'J', text: '調子', vi: 'Tình trạng' },
+          { key: 'K', text: '包丁', vi: 'Dao làm bếp' },
+          { key: 'L', text: '依頼', vi: 'Nhờ vả' },
+          { key: 'M', text: '診断', vi: 'Chẩn đoán' },
+          { key: 'N', text: '機会', vi: 'Cơ hội' },
+        ],
+        items: [
+          { parts: ['たまには{映画|えいが}でも{見|み}て、', 'をしよう。'], answer: 'A', vi: 'Thỉnh thoảng đi xem phim cho khuây khỏa đi.' },
+          { parts: ['いつまでも', 'しないで、{元気|げんき}{出|だ}して。'], answer: 'B', vi: 'Đừng buồn phiền mãi, vui lên nào.' },
+          { parts: ['', '{壊|こわ}したんじゃないんだから、{大丈夫|だいじょうぶ}だよ。'], answer: 'C', vi: 'Đâu phải cố ý làm hỏng, không sao đâu.' },
+          { parts: ['{先生|せんせい}に{頼|たの}むときは、「お{忙|いそが}しいところ{申|もう}し{訳|わけ}ありませんが」という', 'を{言|い}う。'], answer: 'D', vi: 'Khi nhờ thầy cô thì nói lời rào đón "Xin lỗi đã làm phiền lúc thầy bận".' },
+          { parts: ['{古|ふる}い{机|つくえ}といすを', 'に{運|はこ}んでください。'], answer: 'E', vi: 'Hãy chuyển bàn ghế cũ vào nhà kho.' },
+          { parts: ['', 'を{忘|わす}れたので、{友達|ともだち}に{貸|か}してもらった。'], answer: 'F', vi: 'Quên từ điển điện tử nên đã mượn của bạn.' },
+          { parts: ['{銀行|ぎんこう}で{口座|こうざ}を{作|つく}るのに、', 'が{必要|ひつよう}です。'], answer: 'G', vi: 'Để mở tài khoản ngân hàng thì cần giấy tờ tùy thân.' },
+          { parts: ['{財布|さいふ}をなくしたので、{交番|こうばん}で', 'を{出|だ}した。'], answer: 'H', vi: 'Mất ví nên đã nộp đơn báo mất ở đồn cảnh sát.' },
+          { parts: ['{自転車|じてんしゃ}を{買|か}ったら、', 'をしなければならない。'], answer: 'I', vi: 'Mua xe đạp xong phải làm đăng ký chống trộm.' },
+          { parts: ['{風邪|かぜ}を{引|ひ}いて、{体|からだ}の', 'が{悪|わる}いんです。'], answer: 'J', vi: 'Em bị cảm nên người không được khỏe.' },
+        ],
+      },
+    },
+    {
+      id: 7, kind: 'passage', title: '問題 7：次の文章を読んで、質問に答えてください。',
+      data: {
+        heading: '{私|わたし}の{好|す}きなお{祭|まつ}り — {祇園祭|ぎおんまつり}',
+        text: [
+          '{京都|きょうと}の{祇園祭|ぎおんまつり}は、{日本|にほん}の{三大|さんだい}{祭|まつ}りの{一|ひと}つとして{有名|ゆうめい}です。このお{祭|まつ}りは、{千年|せんねん}{以上前|いじょうまえ}に、{病気|びょうき}がはやらないように{神様|かみさま}にお{願|ねが}いしたことから{始|はじ}まったと{言|い}われています。',
+          '７{月|がつ}になると、{町|まち}に{大|おお}きな{山鉾|やまほこ}が{並|なら}びます。{山鉾|やまほこ}は{町|まち}によって{形|かたち}や{飾|かざ}りが{違|ちが}うので、{見|み}て{歩|ある}くのがとても{楽|たの}しいです。',
+          '{私|わたし}が{祇園祭|ぎおんまつり}を{好|す}きなのは、{昔|むかし}の{文化|ぶんか}を{今|いま}でも{大切|たいせつ}に{守|まも}っているからです。また、{国籍|こくせき}に{関係|かんけい}なく、だれでも{見学|けんがく}できるという{点|てん}で、{留学生|りゅうがくせい}にも{親|した}しみやすいお{祭|まつ}りだと{思|おも}います。',
+          '{今年|ことし}は{先生|せんせい}も{一緒|いっしょ}に{行|い}くことになりました。{先生|せんせい}を{誘|さそ}ったとき、「よろしかったら、ご{一緒|いっしょ}にいかがですか」と{言|い}ったら、{喜|よろこ}んでくださいました。{人|ひと}がとても{多|おお}いので、{迷子|まいご}にならないように、{駅|えき}で{待|ま}ち{合|あ}わせをするつもりです。',
+        ],
+        vi: 'Lễ hội Gion ở Kyoto nổi tiếng là một trong ba lễ hội lớn nhất Nhật Bản. Tương truyền lễ hội bắt đầu từ hơn nghìn năm trước, khi người ta cầu thần linh để dịch bệnh không lây lan. Vào tháng 7, những chiếc xe hoa lớn (yamahoko) xếp hàng trên phố. Hình dáng và đồ trang trí của xe hoa khác nhau tùy từng khu phố nên đi dạo ngắm rất vui. Sở dĩ tôi thích lễ hội Gion là vì người ta vẫn gìn giữ văn hóa xưa đến tận bây giờ. Ngoài ra, xét về mặt ai cũng có thể tham quan bất kể quốc tịch, tôi nghĩ đây là lễ hội dễ gần với cả du học sinh. Năm nay thầy giáo cũng sẽ đi cùng. Khi tôi mời "Nếu thầy không bận, thầy đi cùng chúng em nhé?", thầy đã rất vui. Vì rất đông người nên để không bị lạc, chúng tôi định hẹn gặp nhau ở ga.',
+        questions: [
+          { q: '{祇園祭|ぎおんまつり}はどうして{始|はじ}まったと{言|い}われていますか。', options: ['大きな山鉾を見せるため', '病気がはやらないように神様にお願いしたから', '留学生と交流するため', '昔の文化を守るため'], answer: 1, explain: '💡 「{病気|びょうき}がはやらないように{神様|かみさま}にお{願|ねが}いしたことから{始|はじ}まったと{言|い}われています」.' },
+          { q: '{山鉾|やまほこ}について{正|ただ}しいものはどれですか。', options: ['どの町も同じ形だ', '一年中町に並んでいる', '町によって形や飾りが違う', '千年前に作られたものだ'], answer: 2, explain: '💡 <code>N + によって + 違う</code>: 「{町|まち}によって{形|かたち}や{飾|かざ}りが{違|ちが}う」.' },
+          { q: '{筆者|ひっしゃ}が{祇園祭|ぎおんまつり}を{好|す}きな{理由|りゆう}は{何|なん}ですか。', options: ['昔の文化を今でも大切に守っているから', '人が少ないから', '先生が好きだから', '駅から近いから'], answer: 0, explain: '💡 <code>～のは、～からだ</code>: 「{好|す}きなのは、{昔|むかし}の{文化|ぶんか}を{今|いま}でも{大切|たいせつ}に{守|まも}っているからです」.' },
+          { q: '「という{点|てん}で」の{部分|ぶぶん}で、{筆者|ひっしゃ}は{祇園祭|ぎおんまつり}のどんな{点|てん}を{評価|ひょうか}していますか。', options: ['歴史が長いこと', '山鉾が大きいこと', '三大祭りの一つであること', '国籍に関係なく、だれでも見学できること'], answer: 3, explain: '💡 「{国籍|こくせき}に{関係|かんけい}なく、だれでも{見学|けんがく}できるという{点|てん}で」.' },
+          { q: '{筆者|ひっしゃ}たちはどうして{駅|えき}で{待|ま}ち{合|あ}わせをしますか。', options: ['人が多くて、迷子にならないように', '先生が駅の近くに住んでいるから', '電車が遅れるかもしれないから', '山鉾が駅の前にあるから'], answer: 0, explain: '💡 <code>V-ない + ように</code>: 「{迷子|まいご}にならないように、{駅|えき}で{待|ま}ち{合|あ}わせをする」.' },
+        ],
+      },
+    },
+    {
+      id: 8, kind: 'listen', title: '問題 8：音声を聞いて、（　）に聞こえた言葉を書いてください。',
+      data: listen([
+        { parts: ['{京都|きょうと}は{日本|にほん}の{都|みやこ}', '、{長|なが}い{間|あいだ}{栄|さか}えました。'], answers: ['として'], vi: 'Kyoto với tư cách là kinh đô của Nhật, đã phồn vinh trong thời gian dài.', explain: '💡 <code>N + として</code>.' },
+        { parts: ['', '、メモをしておきましょう。'], answers: ['忘れないように', 'わすれないように'], vi: 'Hãy ghi chép lại để không quên.', explain: '💡 <code>V-ない + ように</code>.' },
+        { parts: ['{同|おな}じ{料理|りょうり}でも、{作|つく}る{人|ひと}', '{味|あじ}が{違|ちが}います。'], answers: ['によって'], vi: 'Cùng một món nhưng tùy người nấu mà vị khác nhau.', explain: '💡 <code>N + によって</code>.' },
+        { parts: ['たばこは{体|からだ}に{悪|わる}い', '。'], answers: ['と言われています', 'といわれています'], vi: 'Người ta cho rằng thuốc lá có hại cho sức khỏe.', explain: '💡 <code>～と言われている</code>.' },
+        { parts: ['{力|ちから}が{出|で}ないのは、{朝|あさ}ご{飯|はん}を{食|た}べなかった', '。'], answers: ['からです', 'からだ'], vi: 'Sở dĩ không có sức là vì đã không ăn sáng.', explain: '💡 <code>～のは、～からだ / からです</code>.' },
+        { parts: ['{用事|ようじ}があるので、お{先|さき}に{失礼|しつれい}しても', '。'], answers: ['よろしいでしょうか', '宜しいでしょうか'], vi: 'Em có việc bận, em xin phép về trước được không ạ?', explain: '💡 Xin phép cấp trên: <code>～てもよろしいでしょうか</code>.' },
+        { parts: ['{電車|でんしゃ}が{遅|おく}れた', '、{遅刻|ちこく}してしまいました。'], answers: ['ものですから', '物ですから'], vi: 'Vì tàu điện bị trễ nên em đã đến muộn.', explain: '💡 Lý do khách quan: <code>～ものですから</code>.' },
+        { parts: ['わざと{壊|こわ}したんじゃないんだから、', 'よ。'], answers: ['気にすることない', 'きにすることない'], vi: 'Đâu phải cố ý làm hỏng, không có gì phải bận tâm đâu.', explain: '💡 An ủi: <code>気にすることないよ</code>.' },
+      ]),
+    },
+  ],
+})

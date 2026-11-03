@@ -24,12 +24,14 @@ export const Icon = ({ n, size = 18, fill }) => (
   </svg>
 )
 
-export function say(text) {
+export function say(text, rate = 0.9) {
   if (!('speechSynthesis' in window)) return
   speechSynthesis.cancel()
   const u = new SpeechSynthesisUtterance(text)
   u.lang = 'ja-JP'
-  u.rate = 0.9
+  u.rate = rate
+  const ja = speechSynthesis.getVoices().find((v) => v.lang.toLowerCase().startsWith('ja'))
+  if (ja) u.voice = ja
   speechSynthesis.speak(u)
 }
 

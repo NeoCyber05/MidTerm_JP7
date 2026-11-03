@@ -10,7 +10,7 @@ export default function Home() {
       <section className="hero">
         <p className="eyebrow">Ôn thi tiếng Nhật · N3 / N2</p>
         <h1>Học từ vựng, nắm ngữ pháp,<br />rồi luyện đề mỗi ngày.</h1>
-        <p className="lead">Mỗi bài gồm từ vựng theo chủ đề, ngữ pháp riêng và 6 dạng đề tự chấm.</p>
+        <p className="lead">Mỗi bài gồm từ vựng theo chủ đề, ngữ pháp riêng và 6–8 dạng đề tự chấm (có Đọc hiểu, Nghe điền).</p>
       </section>
 
       <h2 className="sect">Các bài ôn</h2>

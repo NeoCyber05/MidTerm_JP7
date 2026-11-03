@@ -247,6 +247,24 @@ a.card:hover { transform: translateY(-3px); border-color: var(--c); }
 .slot.right { border-color: var(--good); background: var(--good-soft); color: var(--good); }
 .slot.wrong { border-color: var(--bad); background: var(--bad-soft); color: var(--bad); }
 
+/* reading passage */
+.passage { display: flex; flex-direction: column; gap: 12px; border-top: 4px solid var(--c); }
+.passage-title { font-size: 1.15rem; color: var(--c); line-height: 2; }
+.passage-p { font-size: 1.08rem; line-height: 2.1; text-indent: 1em; }
+
+/* listening dictation */
+.listen-note p { font-size: 0.92rem; }
+.listen-note .warn { margin-top: 6px; color: var(--warm); font-weight: 600; }
+.listen-bar { display: flex; gap: 8px; margin-bottom: 6px; }
+.btn.sm { min-height: 36px; padding: 0 12px; font-size: 0.88rem; }
+.dict { margin: 0 4px; padding: 2px 8px; max-width: 100%; border: 2px dashed var(--c); border-radius: 10px; background: var(--primary-soft); font: 700 1em var(--jp); color: var(--ink); vertical-align: middle; }
+.dict:focus { border-style: solid; outline: 0; box-shadow: 0 0 0 3px color-mix(in srgb, var(--c) 30%, transparent); }
+.dict.right { border: 2px solid var(--good); background: var(--good-soft); color: var(--good); }
+.dict.wrong { border: 2px solid var(--bad); background: var(--bad-soft); color: var(--bad); }
+.mark { display: inline-grid; vertical-align: middle; margin-left: 4px; }
+.mark.right { color: var(--good); }
+.mark.wrong { color: var(--bad); }
+
 dialog.scan { width: min(900px, 94vw); max-height: 92vh; padding: 12px; border: 0; border-radius: 16px; background: var(--surface); overflow: auto; }
 dialog.scan::backdrop { background: rgb(10 10 30 / 0.7); }
 dialog.scan .close { position: sticky; top: 0; margin-left: auto; display: grid; background: var(--surface); }

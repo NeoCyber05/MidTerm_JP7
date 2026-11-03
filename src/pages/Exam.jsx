@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate, useOutletContext, useParams } from 'react-router-dom'
 import { examKinds } from '../data'
-import { Ans, Explain, Icon, Progress, Rich } from '../ui.jsx'
+import { Ans, Explain, Icon, Progress, Rich, say } from '../ui.jsx'
 import { useStore } from '../store.jsx'
 
 const img = (p) => `${import.meta.env.BASE_URL}${p}`
@@ -70,7 +70,7 @@ function Choice({ data, scoreKey, revealAll }) {
                   const state = shown ? (j === q.answer ? 'right' : pick[i] === j ? 'wrong' : '') : ''
                   return (
                     <button key={o} type="button" disabled={shown} className={`opt jp ${state}`} onClick={() => setPick((p) => ({ ...p, [i]: j }))}>
-                      <b>{'AB'[j]}</b> {o}
+                      <b>{'ABCD'[j]}</b> {o}
                       {state === 'right' && <Icon n="check" size={16} />}{state === 'wrong' && <Icon n="x" size={16} />}
                     </button>
                   )
@@ -94,7 +94,7 @@ const Scenario = ({ data }) => (
         <Rich html={d.q} className="jp q-text" />
         {d.example
           ? <div className="ex-answer"><span className="chip">Ví dụ</span><Rich html={d.answer} className="jp" /></div>
-          : <><div className="ex-answer"><span className="muted">Đáp án gợi ý:</span> <Ans><span className="jp">{d.answer}</span></Ans></div><Explain html={d.explain} /></>}
+          : <><div className="ex-answer"><span className="muted">Đáp án gợi ý:</span> <Ans><span className="jp" dangerouslySetInnerHTML={{ __html: d.answer }} /></Ans></div><Explain html={d.explain} /></>}
       </li>
     ))}
   </ol>
@@ -155,7 +155,77 @@ function Fill({ data, scoreKey, revealAll }) {
   )
 }
 
-const KIND = { picture: Picture, reading: Reading, conjugate: Conjugate, choice: Choice, scenario: Scenario, fill: Fill }
+/* ---------- 7. Đọc hiểu ---------- */
+const Passage = ({ data, scoreKey, revealAll }) => (
+  <>
+    <article className="card passage">
+      <Rich html={data.heading} as="h3" className="jp passage-title" />
+      {data.text.map((p) => <Rich key={p} html={p} as="p" className="jp passage-p" />)}
+      <Explain html={`<strong>Bản dịch:</strong> ${data.vi}`} />
+    </article>
+    <Choice data={data.questions} scoreKey={scoreKey} revealAll={revealAll} />
+  </>
+)
+
+/* ---------- 8. Nghe & điền ---------- */
+const kana = (s) => s.replace(/[\u30a1-\u30f6]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60))
+const norm = (s) => kana(s.normalize('NFKC')).replace(/[\s、。，．,.!！?？…「」]/g, '')
+const hasJaVoice = () => typeof speechSynthesis !== 'undefined' && speechSynthesis.getVoices().some((v) => v.lang.toLowerCase().startsWith('ja'))
+
+function Listen({ data, scoreKey, revealAll }) {
+  const { saveScore } = useStore()
+  const [val, setVal] = useState({})
+  const [checked, setChecked] = useState(false)
+  const [voice, setVoice] = useState(() => typeof speechSynthesis !== 'undefined')
+  useEffect(() => {
+    if (typeof speechSynthesis === 'undefined') return
+    // Voices load asynchronously; only warn once the list is known and has no Japanese voice.
+    const upd = () => setVoice(hasJaVoice() || !speechSynthesis.getVoices().length)
+    speechSynthesis.addEventListener?.('voiceschanged', upd)
+    return () => speechSynthesis.removeEventListener?.('voiceschanged', upd)
+  }, [])
+  const ok = (it, i) => it.answers.some((a) => norm(a) === norm(val[i] ?? ''))
+  const score = data.filter(ok).length
+
+  return (
+    <>
+      <div className="card listen-note">
+        <p>Bấm <b>▶ Nghe</b> (hoặc <b>Chậm</b>) rồi gõ phần bị che vào ô trống — gõ kana hay kanji đều được, không cần dấu câu.</p>
+        {!voice && <p className="warn">Trình duyệt này chưa có giọng đọc tiếng Nhật. Hãy dùng Chrome/Edge/Safari hoặc cài giọng Nhật trong cài đặt hệ thống.</p>}
+      </div>
+      <ol className="stack q-list">
+        {data.map((it, i) => {
+          const state = checked && val[i] ? (ok(it, i) ? 'right' : 'wrong') : ''
+          const show = revealAll || (checked && state)
+          return (
+            <li key={it.say} className="card q listen-q">
+              <div className="listen-bar">
+                <button type="button" className="btn primary sm" onClick={() => say(it.say)}><Icon n="sound" size={16} /> Nghe</button>
+                <button type="button" className="btn sm" onClick={() => say(it.say, 0.6)}>Chậm</button>
+              </div>
+              <div className="jp q-text">
+                <Rich as="span" html={it.parts[0]} className="inline" />
+                <input className={`dict ${state}`} value={revealAll ? it.answers[0] : val[i] ?? ''} readOnly={revealAll} lang="ja"
+                  aria-label={`Câu ${i + 1}: phần nghe được`} size={Math.max(6, it.answers[0].length + 2)}
+                  onChange={(e) => { setVal((v) => ({ ...v, [i]: e.target.value })); setChecked(false) }} />
+                <Rich as="span" html={it.parts[1]} className="inline" />
+                {state === 'right' && <span className="mark right"><Icon n="check" size={18} /></span>}
+                {state === 'wrong' && <span className="mark wrong"><Icon n="x" size={18} /></span>}
+              </div>
+              {show && <div className="explain-body shown"><div>Đáp án: <b className="jp">{it.answers[0]}</b></div><div className="vi">{it.vi}</div><Rich html={it.explain} /></div>}
+            </li>
+          )
+        })}
+      </ol>
+      <div className="card result">
+        <button type="button" className="btn primary" onClick={() => { setChecked(true); saveScore(scoreKey, score, data.length) }} disabled={!Object.values(val).some(Boolean)}>Chấm điểm</button>
+        {checked && <span>Đúng <b>{score}/{data.length}</b></span>}
+      </div>
+    </>
+  )
+}
+
+const KIND = { picture: Picture, reading: Reading, conjugate: Conjugate, choice: Choice, scenario: Scenario, fill: Fill, passage: Passage, listen: Listen }
 
 /* ---------- list + runner ---------- */
 export function ExamList() {
