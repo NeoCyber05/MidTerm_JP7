@@ -92,7 +92,7 @@ export default function Vocab() {
     return !q || strip(`${v.word} ${v.reading} ${v.meaning} ${v.exVi}`).includes(strip(q.trim()))
   }), [lesson, cat, q, starred])
 
-  const chips = [['all', 'Tất cả', lesson.vocab.length], ...Object.entries(topics).map(([k, t]) => [k, t.label, lesson.vocab.filter((v) => v.cat === k).length]),
+  const chips = [['all', 'Tất cả', lesson.vocab.length], ...Object.entries(topics).map(([k, t]) => [k, t.label, lesson.vocab.filter((v) => v.cat === k).length]).filter(([, , n]) => n),
     ['starred', 'Đã đánh dấu', starred.filter((s) => s.startsWith(`${lesson.id}:`)).length]]
 
   return (

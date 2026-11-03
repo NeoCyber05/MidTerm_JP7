@@ -13,7 +13,7 @@ export default function Overview() {
       <section>
         <div className="sect-row"><h2 className="sect"><Icon n="book" /> Từ vựng theo chủ đề</h2><Link to="vocab" className="link">Xem tất cả</Link></div>
         <div className="grid grid-4">
-          {Object.entries(topics).map(([k, t]) => (
+          {Object.entries(topics).filter(([k]) => count(k)).map(([k, t]) => (
             <Link key={k} to={`vocab?cat=${k}`} className="card topic" style={{ '--c': t.color }}>
               <span className="glyph jp">{t.glyph}</span>
               <strong>{t.label}</strong>
@@ -38,7 +38,7 @@ export default function Overview() {
       </section>
 
       <section>
-        <div className="sect-row"><h2 className="sect"><Icon n="test" /> 6 dạng đề ôn</h2><Link to="exam" className="link">Xem tất cả</Link></div>
+        <div className="sect-row"><h2 className="sect"><Icon n="test" /> {lesson.exams.length} dạng đề ôn</h2><Link to="exam" className="link">Xem tất cả</Link></div>
         <div className="grid grid-3">
           {lesson.exams.map((e) => {
             const k = examKinds[e.kind]
